@@ -976,6 +976,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_0GP0gFx2Eeu7Jv4lzsIfHw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -1015,6 +1019,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_0GP0gFx2Eeu7Jv4lzsIfHw - CI_CASE",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
