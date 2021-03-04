@@ -10,6 +10,44 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/ETL_STG_LOAD/Premise/load_master_premise_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Premise/load_stg_prem_geo_0.1</module>
+    <module>jobs/process/test_context_0.1</module>
+    <module>jobs/process/multiple_key_gen_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_stg_per_char_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/copy_of_load_stg_per_name_0.1</module>
+    <module>jobs/process/test_export_job_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Premise/load_stg_prem_char_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Account/load_stg_acct_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_stg_per_id_0.1</module>
+    <module>jobs/process/key_accnt_load_0.1</module>
+    <module>jobs/process/demo/onboardingdemojob_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SP/load_stg_sp_char_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Case/load_stg_case_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_stg_per_contdet_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_stg_per_per_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SP/loa_master_sp_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_stg_per_name_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Account/load_stg_acct_per_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SA/load_stg_sa_sp_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Account/load_stg_acct_char_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SP/load_stg_sp_0.1</module>
+    <module>jobs/process/demo/test_data_preparation_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SA/load_master_sa_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_master_person_0.1</module>
+    <module>jobs/process/test_server_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person/load_stg_person_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SP/load_stg_sp_op_area_0.1</module>
+    <module>jobs/process/demo/test_memorise_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SP/load_stg_sp_geo_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/key_person_load_0.1</module>
+    <module>jobs/process/load_per_per_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SA/load_stg_sa_char_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Account/load_master_account_0.1</module>
+    <module>jobs/process/test_bulkload_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SA/load_stg_sa_rs_hist_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/SA/load_stg_sa_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Premise/load_stg_prem_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
