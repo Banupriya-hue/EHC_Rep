@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:bcDVEP+gY23fNczzBJrhWBmHdIfjOZwNvzPhQIrG"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:+vbsk1izxJgIGQUfzzxL0YgTrZI2pTGTRtaigIwZ"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Lp7KPrji5RXfZhJFacmD7xyoMv5s1m4mh8EB3ygW"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wyjhW7+Kla+0HoQ9gH8+ss/OyHfsNLarJjOAtcec"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -139,7 +139,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:j6R82PWQJ7ZgQQIVOyx/QxaolgkRDuebbr4RueUEB04aZOQD"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gBni++rF2+8U6N60SJHo4jg7nAZwoaEHYeGLZlEvU9WKnSc9"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - CI_CASE_LOG"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_CASE_LOG&quot;"/>
@@ -302,7 +302,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IM7DhXbC2r9oAZ/OVbI1gNw57XNO4nMYfzH1pcxjkZcuSuO0"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:at2V0LJiZ4dhiR1oaPpAS9HXUMp9KoXmg/L8wmkUJqtr3gwH"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_CASE_LOG&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -570,16 +570,16 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hJO/xsplkxKh6wV92yNGJlDgZdHtJJAAtorw+NjkVNvVKlpcCA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:keT0W69XIN3w2bcR2q4CPeaxANee3cs4QTsxV4Vc4NaXVd/zcA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_CASE"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LZ_CASE&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_CASE_LOG"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LZ_CASE_LOG&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  MZEC_LZ.LZ_CASE.CASE_ID, &#10;  MZEC_LZ.LZ_CASE.CASE_TYPE_CD, &#10;  MZEC_LZ.LZ_CASE.CASE_STATUS_CD, &#10;  MZEC_LZ.LZ_CASE.PER_ID, &#10;  MZEC_LZ.LZ_CASE.ACCT_ID, &#10;  MZEC_LZ.LZ_CASE.PREM_ID, &#10;  MZEC_LZ.LZ_CASE.\&quot;USER_ID\&quot;, &#10;  MZEC_LZ.LZ_CASE.CASE_COND_FLG, &#10;  MZEC_LZ.LZ_CASE.CONTACT_PER_ID, &#10;  MZEC_LZ.LZ_CASE.CONTACT_METH_FLG, &#10;  MZEC_LZ.LZ_CASE.VERSION, &#10;  MZEC_LZ.LZ_CASE.COMMENT_LONG, &#10;  MZEC_LZ.LZ_CASE.CONTACT_INSTR, &#10;  MZEC_LZ.LZ_CASE.PHONE_TYPE_CD, &#10;  MZEC_LZ.LZ_CASE.PHONE, &#10;  MZEC_LZ.LZ_CASE.EXTENSION, &#10;  MZEC_LZ.LZ_CASE.BO_DEFN_AREA, &#10;  MZEC_LZ.LZ_CASE.ILM_DT, &#10;  MZEC_LZ.LZ_CASE.ILM_ARCH_SW, &#10;  MZEC_LZ.LZ_CASE.C1_CONTACT_ID&#10;FROM MZEC_LZ.LZ_CASE&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  MZEC_LZ.LZ_CASE_LOG.CASE_ID, &#10;  MZEC_LZ.LZ_CASE_LOG.SEQ_NUM, &#10;  MZEC_LZ.LZ_CASE_LOG.CASE_LOG_TYPE_FLG, &#10;  MZEC_LZ.LZ_CASE_LOG.\&quot;USER_ID\&quot;, &#10;  MZEC_LZ.LZ_CASE_LOG.LOG_DTTM, &#10;  MZEC_LZ.LZ_CASE_LOG.VERSION, &#10;  MZEC_LZ.LZ_CASE_LOG.DESCRLONG, &#10;  MZEC_LZ.LZ_CASE_LOG.CASE_TYPE_CD, &#10;  MZEC_LZ.LZ_CASE_LOG.CASE_STATUS_CD, &#10;  MZEC_LZ.LZ_CASE_LOG.MESSAGE_CAT_NBR, &#10;  MZEC_LZ.LZ_CASE_LOG.MESSAGE_NBR, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_TYPE_CD, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_VAL, &#10;  MZEC_LZ.LZ_CASE_LOG.ADHOC_CHAR_VAL, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_VAL_FK1, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_VAL_FK2, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_VAL_FK3, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_VAL_FK4, &#10;  MZEC_LZ.LZ_CASE_LOG.CHAR_VAL_FK5&#10;FROM MZEC_LZ.LZ_CASE_LOG&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -590,56 +590,72 @@
     <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
       <elementValue elementRef="SCHEMA_COLUMN" value="CASE_ID"/>
-      <elementValue elementRef="TRIM" value="true"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SEQ_NUM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CASE_LOG_TYPE_FLG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOG_DTTM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VERSION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRLONG"/>
+      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CASE_TYPE_CD"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CASE_STATUS_CD"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MESSAGE_CAT_NBR"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MESSAGE_NBR"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_TYPE_CD"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="USER_ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_VAL"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CASE_COND_FLG"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADHOC_CHAR_VAL"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_PER_ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_VAL_FK1"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_METH_FLG"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_VAL_FK2"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VERSION"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_VAL_FK3"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COMMENT_LONG"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_VAL_FK4"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_INSTR"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE_TYPE_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EXTENSION"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BO_DEFN_AREA"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ILM_DT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ILM_ARCH_SW"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="C1_CONTACT_ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CHAR_VAL_FK5"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="MZEC_LZ.LZ_CASE_LOG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="LZ_CASE" name="tDBInput_1">
+    <metadata connector="FLOW" label="LZ_CASE_LOG" name="tDBInput_1">
       <column comment="" key="true" length="10" name="CASE_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="3" name="SEQ_NUM" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4" name="CASE_LOG_TYPE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="USER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="LOG_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" defaultValue="' '" key="false" length="12" name="CASE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
@@ -648,55 +664,34 @@
       <column comment="" defaultValue="' '" key="false" length="12" name="CASE_STATUS_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="10" name="PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="0" key="false" length="5" name="MESSAGE_CAT_NBR" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="10" name="ACCT_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="0" key="false" length="5" name="MESSAGE_NBR" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="10" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="8" name="CHAR_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="USER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="16" name="CHAR_VAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="4" name="CASE_COND_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="254" name="ADHOC_CHAR_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="10" name="CONTACT_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="50" name="CHAR_VAL_FK1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="4" name="CONTACT_METH_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="50" name="CHAR_VAL_FK2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="50" name="CHAR_VAL_FK3" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="2000" name="COMMENT_LONG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="50" name="CHAR_VAL_FK4" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="' '" key="false" length="2000" name="CONTACT_INSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="12" name="PHONE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="24" name="PHONE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="6" name="EXTENSION" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="4000" name="BO_DEFN_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="ILM_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="ILM_ARCH_SW" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="C1_CONTACT_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="' '" key="false" length="50" name="CHAR_VAL_FK5" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -775,50 +770,49 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="CASE_ID" type="id_String"/>
-        <mapperTableEntries name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries name="CASE_LOG_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries name="USER_ID" type="id_String"/>
-        <mapperTableEntries name="LOG_DTTM" type="id_Date"/>
-        <mapperTableEntries name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries name="DESCRLONG" type="id_String"/>
-        <mapperTableEntries name="CASE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CASE_STATUS_CD" type="id_String"/>
-        <mapperTableEntries name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="MESSAGE_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="CHAR_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL" nullable="true" type="id_String"/>
-        <mapperTableEntries name="ADHOC_CHAR_VAL" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK1" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK2" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK3" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK4" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK5" type="id_String"/>
+        <mapperTableEntries expression="row1.CASE_ID" name="CASE_ID" type="id_String"/>
+        <mapperTableEntries expression="row1.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.CASE_LOG_TYPE_FLG == null?&quot; &quot;:row1.CASE_LOG_TYPE_FLG" name="CASE_LOG_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="row1.USER_ID == null?&quot; &quot;:row1.USER_ID" name="USER_ID" type="id_String"/>
+        <mapperTableEntries expression="row1.LOG_DTTM" name="LOG_DTTM" type="id_Date"/>
+        <mapperTableEntries expression="new BigDecimal(60000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DESCRLONG == null?&quot; &quot;:row1.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="row1.CASE_TYPE_CD == null?&quot; &quot;:row1.CASE_TYPE_CD" name="CASE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.CASE_STATUS_CD == null?&quot; &quot;:row1.CASE_STATUS_CD" name="CASE_STATUS_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.MESSAGE_CAT_NBR == null?&quot; &quot;:row1.MESSAGE_CAT_NBR" name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.MESSAGE_NBR == null?&quot; &quot;:row1.MESSAGE_NBR" name="MESSAGE_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.CHAR_TYPE_CD == null?&quot; &quot;:row1.CHAR_TYPE_CD" name="CHAR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.CHAR_VAL" name="CHAR_VAL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ADHOC_CHAR_VAL == null?&quot; &quot;:row1.ADHOC_CHAR_VAL" name="ADHOC_CHAR_VAL" type="id_String"/>
+        <mapperTableEntries expression="row1.CHAR_VAL_FK1 == null?&quot; &quot;:row1.CHAR_VAL_FK1" name="CHAR_VAL_FK1" type="id_String"/>
+        <mapperTableEntries expression="row1.CHAR_VAL_FK2 == null?&quot; &quot;:row1.CHAR_VAL_FK2" name="CHAR_VAL_FK2" type="id_String"/>
+        <mapperTableEntries expression="row1.CHAR_VAL_FK3 == null?&quot; &quot;:row1.CHAR_VAL_FK3" name="CHAR_VAL_FK3" type="id_String"/>
+        <mapperTableEntries expression="row1.CHAR_VAL_FK4 == null?&quot; &quot;:row1.CHAR_VAL_FK4" name="CHAR_VAL_FK4" type="id_String"/>
+        <mapperTableEntries expression="row1.CHAR_VAL_FK5 == null?&quot; &quot;:row1.CHAR_VAL_FK5" name="CHAR_VAL_FK5" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="CASE_ID" type="id_String"/>
+        <mapperTableEntries name="SEQ_NUM" type="id_BigDecimal"/>
+        <mapperTableEntries name="CASE_LOG_TYPE_FLG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="USER_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LOG_DTTM" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="VERSION" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DESCRLONG" nullable="true" type="id_String"/>
         <mapperTableEntries name="CASE_TYPE_CD" nullable="true" type="id_String"/>
         <mapperTableEntries name="CASE_STATUS_CD" nullable="true" type="id_String"/>
-        <mapperTableEntries name="PER_ID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="ACCT_ID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="PREM_ID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="USER_ID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CASE_COND_FLG" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CONTACT_PER_ID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CONTACT_METH_FLG" nullable="true" type="id_String"/>
-        <mapperTableEntries name="VERSION" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="COMMENT_LONG" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CONTACT_INSTR" nullable="true" type="id_String"/>
-        <mapperTableEntries name="PHONE_TYPE_CD" nullable="true" type="id_String"/>
-        <mapperTableEntries name="PHONE" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EXTENSION" nullable="true" type="id_String"/>
-        <mapperTableEntries name="BO_DEFN_AREA" nullable="true" type="id_String"/>
-        <mapperTableEntries name="ILM_DT" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="ILM_ARCH_SW" nullable="true" type="id_String"/>
-        <mapperTableEntries name="C1_CONTACT_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MESSAGE_CAT_NBR" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MESSAGE_NBR" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CHAR_TYPE_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CHAR_VAL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ADHOC_CHAR_VAL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CHAR_VAL_FK1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CHAR_VAL_FK2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CHAR_VAL_FK3" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CHAR_VAL_FK4" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CHAR_VAL_FK5" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -903,7 +897,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SKuJG3Bcw/CyxYchpGIxm+Mvbpu73H5gMKAFHHt51aDL6NYS"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sSAOKgAltlo230jawuV0PZ/0iV1dpSn9uX/jgpmK6e8PDDK/"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_CASE_LOG&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_CASE_LOG/CI_CASE_LOG.csv&quot;"/>
@@ -1031,7 +1025,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OEEzZd4HxJ8xx6YOdrng4EYBF0V/+IPF/0Hrf2Ue3NXFjaJLbw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qj06A4vQqcx6xFIF2VtlBbE8zUX4zTa88wFvp91JImW61kr5OQ=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_CASE_LOG"/>
@@ -1231,28 +1225,28 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MEDC" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="CASE_ID" type="id_String"/>
-        <mapperTableEntries name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries name="CASE_LOG_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries name="USER_ID" type="id_String"/>
-        <mapperTableEntries name="LOG_DTTM" type="id_Date"/>
-        <mapperTableEntries name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries name="DESCRLONG" type="id_String"/>
-        <mapperTableEntries name="CASE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CASE_STATUS_CD" type="id_String"/>
-        <mapperTableEntries name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="MESSAGE_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="CHAR_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL" nullable="true" type="id_String"/>
-        <mapperTableEntries name="ADHOC_CHAR_VAL" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK1" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK2" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK3" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK4" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK5" type="id_String"/>
+        <mapperTableEntries expression="row3.CASE_ID" name="CASE_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row3.CASE_LOG_TYPE_FLG == null?&quot; &quot;:row3.CASE_LOG_TYPE_FLG" name="CASE_LOG_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="row3.USER_ID == null?&quot; &quot;:row3.USER_ID" name="USER_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.LOG_DTTM" name="LOG_DTTM" type="id_Date"/>
+        <mapperTableEntries expression="new BigDecimal(20000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row3.DESCRLONG == null?&quot; &quot;:row3.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="row3.CASE_TYPE_CD == null?&quot; &quot;:row3.CASE_TYPE_CD" name="CASE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.CASE_STATUS_CD == null?&quot; &quot;:row3.CASE_STATUS_CD" name="CASE_STATUS_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.MESSAGE_CAT_NBR == null?&quot; &quot;:row3.MESSAGE_CAT_NBR" name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row3.MESSAGE_NBR == null?&quot; &quot;:row3.MESSAGE_NBR" name="MESSAGE_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row3.CHAR_TYPE_CD == null?&quot; &quot;:row3.CHAR_TYPE_CD" name="CHAR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.CHAR_VAL" name="CHAR_VAL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.ADHOC_CHAR_VAL == null?&quot; &quot;:row3.ADHOC_CHAR_VAL" name="ADHOC_CHAR_VAL" type="id_String"/>
+        <mapperTableEntries expression="row3.CHAR_VAL_FK1 == null?&quot; &quot;:row3.CHAR_VAL_FK1" name="CHAR_VAL_FK1" type="id_String"/>
+        <mapperTableEntries expression="row3.CHAR_VAL_FK2 == null?&quot; &quot;:row3.CHAR_VAL_FK2" name="CHAR_VAL_FK2" type="id_String"/>
+        <mapperTableEntries expression="row3.CHAR_VAL_FK3 == null?&quot; &quot;:row3.CHAR_VAL_FK3" name="CHAR_VAL_FK3" type="id_String"/>
+        <mapperTableEntries expression="row3.CHAR_VAL_FK4 == null?&quot; &quot;:row3.CHAR_VAL_FK4" name="CHAR_VAL_FK4" type="id_String"/>
+        <mapperTableEntries expression="row3.CHAR_VAL_FK5 == null?&quot; &quot;:row3.CHAR_VAL_FK5" name="CHAR_VAL_FK5" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
         <mapperTableEntries name="CASE_ID" type="id_String"/>
@@ -1293,7 +1287,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9XoODu1a7ztaDhOjl3UXJpQd3pCDaSWvjlVTy51ab24L6RvrWQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aR9T8iIsuy7XCaGbEC2QTYiG+vyFIl7KwMazDbx42iMu/IwtXQ=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_CASE_LOG"/>
@@ -1493,28 +1487,28 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MJEC" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="CASE_ID" type="id_String"/>
-        <mapperTableEntries name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries name="CASE_LOG_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries name="USER_ID" type="id_String"/>
-        <mapperTableEntries name="LOG_DTTM" type="id_Date"/>
-        <mapperTableEntries name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries name="DESCRLONG" type="id_String"/>
-        <mapperTableEntries name="CASE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CASE_STATUS_CD" type="id_String"/>
-        <mapperTableEntries name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="MESSAGE_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="CHAR_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL" nullable="true" type="id_String"/>
-        <mapperTableEntries name="ADHOC_CHAR_VAL" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK1" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK2" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK3" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK4" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK5" type="id_String"/>
+        <mapperTableEntries expression="row4.CASE_ID" name="CASE_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.CASE_LOG_TYPE_FLG == null?&quot; &quot;:row4.CASE_LOG_TYPE_FLG" name="CASE_LOG_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="row4.USER_ID == null?&quot; &quot;:row4.USER_ID" name="USER_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.LOG_DTTM" name="LOG_DTTM" type="id_Date"/>
+        <mapperTableEntries expression="new BigDecimal(40000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.DESCRLONG == null?&quot; &quot;:row4.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="row4.CASE_TYPE_CD == null?&quot; &quot;:row4.CASE_TYPE_CD" name="CASE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.CASE_STATUS_CD == null?&quot; &quot;:row4.CASE_STATUS_CD" name="CASE_STATUS_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.MESSAGE_CAT_NBR == null?&quot; &quot;:row4.MESSAGE_CAT_NBR" name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.MESSAGE_NBR == null?&quot; &quot;:row4.MESSAGE_NBR" name="MESSAGE_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.CHAR_TYPE_CD == null?&quot; &quot;:row4.CHAR_TYPE_CD" name="CHAR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.CHAR_VAL" name="CHAR_VAL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row4.ADHOC_CHAR_VAL == null?&quot; &quot;:row4.ADHOC_CHAR_VAL" name="ADHOC_CHAR_VAL" type="id_String"/>
+        <mapperTableEntries expression="row4.CHAR_VAL_FK1 == null?&quot; &quot;:row4.CHAR_VAL_FK1" name="CHAR_VAL_FK1" type="id_String"/>
+        <mapperTableEntries expression="row4.CHAR_VAL_FK2 == null?&quot; &quot;:row4.CHAR_VAL_FK2" name="CHAR_VAL_FK2" type="id_String"/>
+        <mapperTableEntries expression="row4.CHAR_VAL_FK3 == null?&quot; &quot;:row4.CHAR_VAL_FK3" name="CHAR_VAL_FK3" type="id_String"/>
+        <mapperTableEntries expression="row4.CHAR_VAL_FK4 == null?&quot; &quot;:row4.CHAR_VAL_FK4" name="CHAR_VAL_FK4" type="id_String"/>
+        <mapperTableEntries expression="row4.CHAR_VAL_FK5 == null?&quot; &quot;:row4.CHAR_VAL_FK5" name="CHAR_VAL_FK5" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
         <mapperTableEntries name="CASE_ID" type="id_String"/>
@@ -1555,7 +1549,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mHqiLM/ng9+Fy0cjvlJk1rhnOGFkWawUu+cht2AN85LPartTlQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GtSzOa/90QoT/GyW5T9HQ7IkPuiY4UtQ6ZqDzg+oGm9Tx+sOew=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_CASE_LOG"/>
@@ -1755,28 +1749,28 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="TNWR" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="CASE_ID" type="id_String"/>
-        <mapperTableEntries name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries name="CASE_LOG_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries name="USER_ID" type="id_String"/>
-        <mapperTableEntries name="LOG_DTTM" type="id_Date"/>
-        <mapperTableEntries name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries name="DESCRLONG" type="id_String"/>
-        <mapperTableEntries name="CASE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CASE_STATUS_CD" type="id_String"/>
-        <mapperTableEntries name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="MESSAGE_NBR" type="id_BigDecimal"/>
-        <mapperTableEntries name="CHAR_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL" nullable="true" type="id_String"/>
-        <mapperTableEntries name="ADHOC_CHAR_VAL" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK1" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK2" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK3" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK4" type="id_String"/>
-        <mapperTableEntries name="CHAR_VAL_FK5" type="id_String"/>
+        <mapperTableEntries expression="row5.CASE_ID" name="CASE_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row5.CASE_LOG_TYPE_FLG == null?&quot; &quot;:row5.CASE_LOG_TYPE_FLG" name="CASE_LOG_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="row5.USER_ID == null?&quot; &quot;:row5.USER_ID" name="USER_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.LOG_DTTM" name="LOG_DTTM" type="id_Date"/>
+        <mapperTableEntries expression="new BigDecimal(80000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row5.DESCRLONG == null?&quot; &quot;:row5.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="row5.CASE_TYPE_CD == null?&quot; &quot;:row5.CASE_TYPE_CD" name="CASE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.CASE_STATUS_CD == null?&quot; &quot;:row5.CASE_STATUS_CD" name="CASE_STATUS_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.MESSAGE_CAT_NBR == null?&quot; &quot;:row5.MESSAGE_CAT_NBR" name="MESSAGE_CAT_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row5.MESSAGE_NBR == null?&quot; &quot;:row5.MESSAGE_NBR" name="MESSAGE_NBR" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row5.CHAR_TYPE_CD == null?&quot; &quot;:row5.CHAR_TYPE_CD" name="CHAR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.CHAR_VAL" name="CHAR_VAL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row5.ADHOC_CHAR_VAL == null?&quot; &quot;:row5.ADHOC_CHAR_VAL" name="ADHOC_CHAR_VAL" type="id_String"/>
+        <mapperTableEntries expression="row5.CHAR_VAL_FK1 == null?&quot; &quot;:row5.CHAR_VAL_FK1" name="CHAR_VAL_FK1" type="id_String"/>
+        <mapperTableEntries expression="row5.CHAR_VAL_FK2 == null?&quot; &quot;:row5.CHAR_VAL_FK2" name="CHAR_VAL_FK2" type="id_String"/>
+        <mapperTableEntries expression="row5.CHAR_VAL_FK3 == null?&quot; &quot;:row5.CHAR_VAL_FK3" name="CHAR_VAL_FK3" type="id_String"/>
+        <mapperTableEntries expression="row5.CHAR_VAL_FK4 == null?&quot; &quot;:row5.CHAR_VAL_FK4" name="CHAR_VAL_FK4" type="id_String"/>
+        <mapperTableEntries expression="row5.CHAR_VAL_FK5 == null?&quot; &quot;:row5.CHAR_VAL_FK5" name="CHAR_VAL_FK5" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
         <mapperTableEntries name="CASE_ID" type="id_String"/>
@@ -1868,13 +1862,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1e27c39f-d7f9-4ca2-9147-ff8d02d744f0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MfsNG+mU4ZrcMtvKGb5al5dAHa4TExViZRWInfkTV/jnMlttGOF4FZxfqaPNqVmLFXUKsuIPJwu/&#13;
-2xfbb8vdsA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ac3d1f95-66d0-4fc2-ba92-ab8e413a8179"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2TkKVmHok25o2dKYPojrF8lc38yIq5BrtPTGLp0lpEjbfaySBhuamTMfSjWIxkkmBxVrILCGC4L5&#13;
-ultcHJdd5Q==</DigestValue></Reference></SignedInfo><SignatureValue>LFIt9v9JC2CcD+1bRxbAe44qYGYWLXTNwdmr8jMaPuIuQ3HTGVVmYNcIlBw3dU97WreUMZReoE0u&#13;
-BgNxzlbh5eBEBU81QCsvHD3+EZaPzXBX2josq7uj0ku5HwGCRkD9OTEEba/wrSAi0tHWhGiBKg/9&#13;
-wezgw/9scASOc/epoJHb/PuYhmYjpGHJz0BfyOmZCICI1BLRB5F0QyAOewmKOL4wLfKpl1wC09Ot&#13;
-kYE6LYzSDfoS5bc4t/O+1vPnB6VaNs5hbgcGd+sZ01zHM8uqkQXTwQWT3QohjoQcBfZLkBG3FmyV&#13;
-yvt7lS0o0zTKF273cf2FwZypduba4JlOFq9Rjw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_48dec3b5-4bb3-4edb-b042-52e7a4d79b10"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nnjYGN6TAazutcvOuweaIIZwzy9VVOZOkrnhn1IuTuZnnnHjVINqRgNUGfJVFbn60ewh6D/pvCoZ&#13;
+8/IestMVOA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f0e9392f-bcaa-49a7-b2fc-c50ab9d76cec"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UVaycrsPbrp4VJdT7E9rwXnMh4y+YgB9Mz+q3BXo67rBNUT3aE8n8DkGuE0l6y2pUOaNwgpjsBGQ&#13;
+d5SiVIU3Wg==</DigestValue></Reference></SignedInfo><SignatureValue>Md9NwfZFsWRo7PQiN8HyZ65MNkpGCUSOmBbcw4u/OaUtWMxhqsirHIsDGwsy8iU5Fz3TB0uS9p0w&#13;
+CYcnwjmsjbfxMYX4kmAIuo8glz1qmbih5GYWNa2LulC04knc4ktvsPqu/ISqLPq+atvmfgJ/eRHq&#13;
+1sqA7qW6P7KAJP5R979PZ3/NekxuTwmnJnshN3gCYHAFXpmxPU2jvgn/plp/M85Ah5YZbE0o2d7z&#13;
+Dky/Fm9USQVPwAi06IyA1RY0uLiWRdP1vndMk/PrfKLW81Cpcm6Dnp7cp2vcZaPSRIAz3Uibhq3I&#13;
+2a6S36eXcmDWmIOjIRKRw97BCp+7cZNPO0xTxA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1896,4 +1890,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ac3d1f95-66d0-4fc2-ba92-ab8e413a8179" Target="#_1e27c39f-d7f9-4ca2-9147-ff8d02d744f0"><Timestamp>2021-03-05 05:29:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f0e9392f-bcaa-49a7-b2fc-c50ab9d76cec" Target="#_48dec3b5-4bb3-4edb-b042-52e7a4d79b10"><Timestamp>2021-03-05 06:54:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
