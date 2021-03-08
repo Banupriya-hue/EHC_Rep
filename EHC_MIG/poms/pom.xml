@@ -52,6 +52,7 @@
     <module>jobs/process/ETL_STG_LOAD/Case/load_stg_case_log_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Adjustment/load_stg_adj_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Adjustment/load_stg_adj_char_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Payplan/load_stg_pp_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
