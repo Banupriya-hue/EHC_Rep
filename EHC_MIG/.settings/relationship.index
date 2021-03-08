@@ -779,6 +779,26 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_0GP0gFx2Eeu7Jv4lzsIfHw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_N4k5AGYNEeuMVN6gzRGzEg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dr-9AFxtEeu7Jv4lzsIfHw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_fM9K4GYNEeuMVN6gzRGzEg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ym73UGYNEeuMVN6gzRGzEg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -818,6 +838,26 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_0GP0gFx2Eeu7Jv4lzsIfHw - CI_PP_SCHED_PAY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_N4k5AGYNEeuMVN6gzRGzEg - LZ_PP_SCHED_PAY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dr-9AFxtEeu7Jv4lzsIfHw - LZ_PP_SCHED_PAY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_fM9K4GYNEeuMVN6gzRGzEg - LZ_PP_SCHED_PAY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ym73UGYNEeuMVN6gzRGzEg - LZ_PP_SCHED_PAY",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
