@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:RB3V52FHFveZL/OnNmSOe/2cJga6tQm6jwYujDQN"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:MzT8PDLswX+sV3IHlrX7aOovx82F0imzoMVmw5J9"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/k3mqLghL8BIWx2GUqMqOnZ5LKZPxLS7mVt4MOZG"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xwCNWzO1gWAAzRTFeUEDZIZIMrDze4qI/GoktJrn"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -139,7 +139,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:905h8NXUdMc9d4aUh5Gc92HxSYnp0EhpMqKCabiJvbBq/tdU"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:w8YgbrRg6z0mUGHhdVPbyyxowvZuQ0NIc8JI+W6FVh3psUoy"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - CI_PREM"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PREM&quot;"/>
@@ -389,9 +389,9 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:v7rW2gQcOLYlpdlwLAPHEwF25IKcBkcFXc7LorbktTNHX9lkLg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5Gz4uQCAsRkXmDrp13F9t/1SNjr1odKCNmai3aHW1y/PdPaLIw=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_PREM"/>
@@ -711,10 +711,10 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="StringHandling.RIGHT(row1.PREM_ID,8) " name="PREM_ID" type="id_String"/>
+        <mapperTableEntries expression="row1.PREM_ID" name="PREM_ID" type="id_String"/>
         <mapperTableEntries expression="row1.PREM_TYPE_CD == null?&quot; &quot;:row1.PREM_TYPE_CD " name="PREM_TYPE_CD" type="id_String"/>
         <mapperTableEntries expression="row1.CIS_DIVISION == null?&quot; &quot;:row1.CIS_DIVISION " name="CIS_DIVISION" type="id_String"/>
         <mapperTableEntries expression="row1.LL_ID == null?&quot; &quot;:row1.LL_ID " name="LL_ID" type="id_String"/>
@@ -913,7 +913,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:C9JEsfiVjhjIRceeL3CKZKJCgyUmZ5dBkNgNzioxJHioR2QCQg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pOS1mjzQOX8LAbOj/zpJ074BaKLgUXLUripN8xHa42RhJ6oQ3w=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_PREM"/>
@@ -1006,7 +1006,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_DATA_AREA"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="MEDC_LZ.LZ_PREM"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="LZ_PREM" name="tDBInput_1">
@@ -1233,43 +1233,43 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MEDC" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="StringHandling.RIGHT(row3.PREM_ID,8) " name="PREM_ID" type="id_String"/>
-        <mapperTableEntries expression="row3.PREM_TYPE_CD" name="PREM_TYPE_CD" type="id_String"/>
-        <mapperTableEntries expression="row3.CIS_DIVISION" name="CIS_DIVISION" type="id_String"/>
-        <mapperTableEntries expression="row3.LL_ID" name="LL_ID" type="id_String"/>
-        <mapperTableEntries expression="row3.KEY_SW" name="KEY_SW" type="id_String"/>
-        <mapperTableEntries expression="row3.KEY_ID" name="KEY_ID" type="id_String"/>
-        <mapperTableEntries expression="row3.OK_TO_ENTER_SW" name="OK_TO_ENTER_SW" type="id_String"/>
-        <mapperTableEntries expression="row3.MR_INSTR_CD" name="MR_INSTR_CD" type="id_String"/>
-        <mapperTableEntries expression="row3.MR_INSTR_DETAILS" name="MR_INSTR_DETAILS" type="id_String"/>
-        <mapperTableEntries expression="row3.MR_WARN_CD" name="MR_WARN_CD" type="id_String"/>
-        <mapperTableEntries expression="row3.TREND_AREA_CD" name="TREND_AREA_CD" type="id_String"/>
-        <mapperTableEntries expression="row3.ADDRESS1" name="ADDRESS1" type="id_String"/>
-        <mapperTableEntries expression="row3.ADDRESS2" name="ADDRESS2" type="id_String"/>
-        <mapperTableEntries expression="row3.ADDRESS3" name="ADDRESS3" type="id_String"/>
-        <mapperTableEntries expression="row3.ADDRESS4" name="ADDRESS4" type="id_String"/>
-        <mapperTableEntries expression="row3.MAIL_ADDR_SW" name="MAIL_ADDR_SW" type="id_String"/>
-        <mapperTableEntries expression="row3.CITY" name="CITY" type="id_String"/>
-        <mapperTableEntries expression="row3.NUM1" name="NUM1" type="id_String"/>
-        <mapperTableEntries expression="row3.NUM2" name="NUM2" type="id_String"/>
-        <mapperTableEntries expression="row3.COUNTY" name="COUNTY" type="id_String"/>
-        <mapperTableEntries expression="row3.POSTAL" name="POSTAL" type="id_String"/>
-        <mapperTableEntries expression="row3.HOUSE_TYPE" name="HOUSE_TYPE" type="id_String"/>
-        <mapperTableEntries expression="row3.GEO_CODE" name="GEO_CODE" type="id_String"/>
-        <mapperTableEntries expression="row3.IN_CITY_LIMIT" name="IN_CITY_LIMIT" type="id_String"/>
-        <mapperTableEntries expression="row3.STATE" name="STATE" type="id_String"/>
-        <mapperTableEntries expression="row3.COUNTRY" name="COUNTRY" type="id_String"/>
+        <mapperTableEntries expression="row3.PREM_ID" name="PREM_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.PREM_TYPE_CD == null?&quot; &quot;:row3.PREM_TYPE_CD" name="PREM_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.CIS_DIVISION == null?&quot; &quot;:row3.CIS_DIVISION" name="CIS_DIVISION" type="id_String"/>
+        <mapperTableEntries expression="row3.LL_ID == null?&quot; &quot;:row3.LL_ID" name="LL_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.KEY_SW == null?&quot; &quot;:row3.KEY_SW" name="KEY_SW" type="id_String"/>
+        <mapperTableEntries expression="row3.KEY_ID == null?&quot; &quot;:row3.KEY_ID " name="KEY_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.OK_TO_ENTER_SW == null?&quot; &quot;:row3.OK_TO_ENTER_SW" name="OK_TO_ENTER_SW" type="id_String"/>
+        <mapperTableEntries expression="row3.MR_INSTR_CD == null?&quot; &quot;:row3.MR_INSTR_CD" name="MR_INSTR_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.MR_INSTR_DETAILS == null?&quot; &quot;:row3.MR_INSTR_DETAILS" name="MR_INSTR_DETAILS" type="id_String"/>
+        <mapperTableEntries expression="row3.MR_WARN_CD == null?&quot; &quot;:row3.MR_WARN_CD" name="MR_WARN_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.TREND_AREA_CD == null?&quot; &quot;:row3.TREND_AREA_CD" name="TREND_AREA_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.ADDRESS1 == null?&quot; &quot;:row3.ADDRESS1" name="ADDRESS1" type="id_String"/>
+        <mapperTableEntries expression="row3.ADDRESS2row3.ADDRESS2 == null?&quot; &quot;:row3.ADDRESS2" name="ADDRESS2" type="id_String"/>
+        <mapperTableEntries expression="row3.ADDRESS3 == null?&quot; &quot;:row3.ADDRESS3" name="ADDRESS3" type="id_String"/>
+        <mapperTableEntries expression="row3.ADDRESS4 == null?&quot; &quot;:row3.ADDRESS4" name="ADDRESS4" type="id_String"/>
+        <mapperTableEntries expression="row3.MAIL_ADDR_SW == null?&quot; &quot;:row3.MAIL_ADDR_SW" name="MAIL_ADDR_SW" type="id_String"/>
+        <mapperTableEntries expression="row3.CITY == null?&quot; &quot;:row3.CITY" name="CITY" type="id_String"/>
+        <mapperTableEntries expression="row3.NUM1 == null?&quot; &quot;:row3.NUM1" name="NUM1" type="id_String"/>
+        <mapperTableEntries expression="row3.NUM2 == null?&quot; &quot;:row3.NUM2" name="NUM2" type="id_String"/>
+        <mapperTableEntries expression="row3.COUNTY == null?&quot; &quot;:row3.COUNTY" name="COUNTY" type="id_String"/>
+        <mapperTableEntries expression="row3.POSTAL == null?&quot; &quot;:row3.POSTAL" name="POSTAL" type="id_String"/>
+        <mapperTableEntries expression="row3.HOUSE_TYPE == null?&quot; &quot;:row3.HOUSE_TYPE" name="HOUSE_TYPE" type="id_String"/>
+        <mapperTableEntries expression="row3.GEO_CODE == null?&quot; &quot;:row3.GEO_CODE" name="GEO_CODE" type="id_String"/>
+        <mapperTableEntries expression="row3.IN_CITY_LIMIT == null?&quot; &quot;:row3.IN_CITY_LIMIT " name="IN_CITY_LIMIT" type="id_String"/>
+        <mapperTableEntries expression="row3.STATE == null?&quot; &quot;:row3.STATE" name="STATE" type="id_String"/>
+        <mapperTableEntries expression="row3.COUNTRY == null?&quot; &quot;:row3.COUNTRY" name="COUNTRY" type="id_String"/>
         <mapperTableEntries expression="new BigDecimal(20000)" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row3.ADDRESS1_UPR" name="ADDRESS1_UPR" type="id_String"/>
-        <mapperTableEntries expression="row3.CITY_UPR" name="CITY_UPR" type="id_String"/>
-        <mapperTableEntries expression="row3.TIME_ZONE_CD" name="TIME_ZONE_CD" type="id_String"/>
-        <mapperTableEntries expression="row3.LS_SL_FLG" name="LS_SL_FLG" type="id_String"/>
-        <mapperTableEntries expression="row3.LS_SL_DESCR" name="LS_SL_DESCR" type="id_String"/>
-        <mapperTableEntries expression="row3.PRNT_PREM_ID" name="PRNT_PREM_ID" type="id_String"/>
-        <mapperTableEntries expression="row3.PREM_DATA_AREA" name="PREM_DATA_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.ADDRESS1_UPR == null?&quot; &quot;:row3.ADDRESS1_UPR" name="ADDRESS1_UPR" type="id_String"/>
+        <mapperTableEntries expression="row3.CITY_UPR == null?&quot; &quot;:row3.CITY_UPR" name="CITY_UPR" type="id_String"/>
+        <mapperTableEntries expression="row3.TIME_ZONE_CD == null?&quot; &quot;:row3.TIME_ZONE_CD" name="TIME_ZONE_CD" type="id_String"/>
+        <mapperTableEntries expression="ow3.LS_SL_FLG == null?&quot; &quot;:row3.LS_SL_FLG" name="LS_SL_FLG" type="id_String"/>
+        <mapperTableEntries expression="row3.LS_SL_DESCR == null?&quot; &quot;:row3.LS_SL_DESCR" name="LS_SL_DESCR" type="id_String"/>
+        <mapperTableEntries expression="row3.PRNT_PREM_ID == null?&quot; &quot;:row3.PRNT_PREM_ID" name="PRNT_PREM_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.PREM_DATA_AREA == null?&quot; &quot;:row3.PREM_DATA_AREA" name="PREM_DATA_AREA" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
         <mapperTableEntries name="PREM_ID" type="id_String"/>
@@ -1325,7 +1325,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N2t0w5poU+2BYw57ZgfajZKeSgmOuME/brqcZN+HGUEbeSFNZg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BKytCzZQiyMiw1FDFmcNtdT8RZj503/eH7DQfeEbI9b3OXMaYw=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_PREM"/>
@@ -1345,12 +1345,12 @@
     <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="TRIM" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_TYPE_CD"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CIS_DIVISION"/>
@@ -1418,7 +1418,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_DATA_AREA"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="MJEC_LZ.LZ_PREM"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="LZ_PREM" name="tDBInput_3">
@@ -1645,43 +1645,43 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MJEC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row4.PREM_ID" name="PREM_ID" type="id_String"/>
-        <mapperTableEntries expression="row4.PREM_TYPE_CD" name="PREM_TYPE_CD" type="id_String"/>
-        <mapperTableEntries expression="row4.CIS_DIVISION" name="CIS_DIVISION" type="id_String"/>
-        <mapperTableEntries expression="row4.LL_ID" name="LL_ID" type="id_String"/>
-        <mapperTableEntries expression="row4.KEY_SW" name="KEY_SW" type="id_String"/>
-        <mapperTableEntries expression="row4.KEY_ID" name="KEY_ID" type="id_String"/>
-        <mapperTableEntries expression="row4.OK_TO_ENTER_SW" name="OK_TO_ENTER_SW" type="id_String"/>
-        <mapperTableEntries expression="row4.MR_INSTR_CD" name="MR_INSTR_CD" type="id_String"/>
-        <mapperTableEntries expression="row4.MR_INSTR_DETAILS" name="MR_INSTR_DETAILS" type="id_String"/>
-        <mapperTableEntries expression="row4.MR_WARN_CD" name="MR_WARN_CD" type="id_String"/>
-        <mapperTableEntries expression="row4.TREND_AREA_CD" name="TREND_AREA_CD" type="id_String"/>
-        <mapperTableEntries expression="row4.ADDRESS1" name="ADDRESS1" type="id_String"/>
-        <mapperTableEntries expression="row4.ADDRESS2" name="ADDRESS2" type="id_String"/>
-        <mapperTableEntries expression="row4.ADDRESS3" name="ADDRESS3" type="id_String"/>
-        <mapperTableEntries expression="row4.ADDRESS4" name="ADDRESS4" type="id_String"/>
-        <mapperTableEntries expression="row4.MAIL_ADDR_SW" name="MAIL_ADDR_SW" type="id_String"/>
-        <mapperTableEntries expression="row4.CITY" name="CITY" type="id_String"/>
-        <mapperTableEntries expression="row4.NUM1" name="NUM1" type="id_String"/>
-        <mapperTableEntries expression="row4.NUM2" name="NUM2" type="id_String"/>
-        <mapperTableEntries expression="row4.COUNTY" name="COUNTY" type="id_String"/>
-        <mapperTableEntries expression="row4.POSTAL" name="POSTAL" type="id_String"/>
-        <mapperTableEntries expression="row4.HOUSE_TYPE" name="HOUSE_TYPE" type="id_String"/>
-        <mapperTableEntries expression="row4.GEO_CODE" name="GEO_CODE" type="id_String"/>
-        <mapperTableEntries expression="row4.IN_CITY_LIMIT" name="IN_CITY_LIMIT" type="id_String"/>
-        <mapperTableEntries expression="row4.STATE" name="STATE" type="id_String"/>
-        <mapperTableEntries expression="row4.COUNTRY" name="COUNTRY" type="id_String"/>
+        <mapperTableEntries expression="row4.PREM_TYPE_CD == null?&quot; &quot;:row4.PREM_TYPE_CD" name="PREM_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.CIS_DIVISION == null?&quot; &quot;:row4.CIS_DIVISION" name="CIS_DIVISION" type="id_String"/>
+        <mapperTableEntries expression="row4.LL_ID == null?&quot; &quot;:row4.LL_ID" name="LL_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.KEY_SW == null?&quot; &quot;:row4.KEY_SW" name="KEY_SW" type="id_String"/>
+        <mapperTableEntries expression="row4.KEY_ID == null?&quot; &quot;:row4.KEY_ID " name="KEY_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.OK_TO_ENTER_SW == null?&quot; &quot;:row4.OK_TO_ENTER_SW" name="OK_TO_ENTER_SW" type="id_String"/>
+        <mapperTableEntries expression="row4.MR_INSTR_CD == null?&quot; &quot;:row4.MR_INSTR_CD" name="MR_INSTR_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.MR_INSTR_DETAILS == null?&quot; &quot;:row4.MR_INSTR_DETAILS" name="MR_INSTR_DETAILS" type="id_String"/>
+        <mapperTableEntries expression="row4.MR_WARN_CD == null?&quot; &quot;:row4.MR_WARN_CD" name="MR_WARN_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.TREND_AREA_CD == null?&quot; &quot;:row4.TREND_AREA_CD" name="TREND_AREA_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.ADDRESS1 == null?&quot; &quot;:row4.ADDRESS1" name="ADDRESS1" type="id_String"/>
+        <mapperTableEntries expression="row4.ADDRESS2 == null?&quot; &quot;:row4.ADDRESS2" name="ADDRESS2" type="id_String"/>
+        <mapperTableEntries expression="row4.ADDRESS3 == null?&quot; &quot;:row4.ADDRESS3" name="ADDRESS3" type="id_String"/>
+        <mapperTableEntries expression="row4.ADDRESS4 == null?&quot; &quot;:row4.ADDRESS4" name="ADDRESS4" type="id_String"/>
+        <mapperTableEntries expression="row4.MAIL_ADDR_SW == null?&quot; &quot;:row4.MAIL_ADDR_SW" name="MAIL_ADDR_SW" type="id_String"/>
+        <mapperTableEntries expression="row4.CITY == null?&quot; &quot;:row4.CITY" name="CITY" type="id_String"/>
+        <mapperTableEntries expression="row4.NUM1 == null?&quot; &quot;:row4.NUM1" name="NUM1" type="id_String"/>
+        <mapperTableEntries expression="row4.NUM2 == null?&quot; &quot;:row4.NUM2" name="NUM2" type="id_String"/>
+        <mapperTableEntries expression="row4.COUNTY == null?&quot; &quot;:row4.COUNTY" name="COUNTY" type="id_String"/>
+        <mapperTableEntries expression="row4.POSTAL == null?&quot; &quot;:row4.POSTAL" name="POSTAL" type="id_String"/>
+        <mapperTableEntries expression="row4.HOUSE_TYPE == null?&quot; &quot;:row4.HOUSE_TYPE" name="HOUSE_TYPE" type="id_String"/>
+        <mapperTableEntries expression="row4.GEO_CODE == null?&quot; &quot;:row4.GEO_CODE" name="GEO_CODE" type="id_String"/>
+        <mapperTableEntries expression="row4.IN_CITY_LIMIT == null?&quot; &quot;:row4.IN_CITY_LIMIT" name="IN_CITY_LIMIT" type="id_String"/>
+        <mapperTableEntries expression="row4.STATE == null?&quot; &quot;:row4.STATE" name="STATE" type="id_String"/>
+        <mapperTableEntries expression="row4.COUNTRY == null?&quot; &quot;:row4.COUNTRY" name="COUNTRY" type="id_String"/>
         <mapperTableEntries expression="new BigDecimal(40000)" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row4.ADDRESS1_UPR" name="ADDRESS1_UPR" type="id_String"/>
-        <mapperTableEntries expression="row4.CITY_UPR" name="CITY_UPR" type="id_String"/>
-        <mapperTableEntries expression="row4.TIME_ZONE_CD" name="TIME_ZONE_CD" type="id_String"/>
-        <mapperTableEntries expression="row4.LS_SL_FLG" name="LS_SL_FLG" type="id_String"/>
-        <mapperTableEntries expression="row4.LS_SL_DESCR" name="LS_SL_DESCR" type="id_String"/>
-        <mapperTableEntries expression="row4.PRNT_PREM_ID" name="PRNT_PREM_ID" type="id_String"/>
-        <mapperTableEntries expression="row4.PREM_DATA_AREA" name="PREM_DATA_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row4.ADDRESS1_UPR == null?&quot; &quot;:row4.ADDRESS1_UPR" name="ADDRESS1_UPR" type="id_String"/>
+        <mapperTableEntries expression="row4.CITY_UPR == null?&quot; &quot;:row4.CITY_UPR" name="CITY_UPR" type="id_String"/>
+        <mapperTableEntries expression="row4.TIME_ZONE_CD == null?&quot; &quot;:row4.TIME_ZONE_CD" name="TIME_ZONE_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.LS_SL_FLG == null?&quot; &quot;:row4.LS_SL_FLG" name="LS_SL_FLG" type="id_String"/>
+        <mapperTableEntries expression="row4.LS_SL_DESCR == null?&quot; &quot;:row4.LS_SL_DESCR" name="LS_SL_DESCR" type="id_String"/>
+        <mapperTableEntries expression="row4.PRNT_PREM_ID == null?&quot; &quot;:row4.PRNT_PREM_ID" name="PRNT_PREM_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.PREM_DATA_AREA == null?&quot; &quot;:row4.PREM_DATA_AREA" name="PREM_DATA_AREA" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
         <mapperTableEntries name="PREM_ID" type="id_String"/>
@@ -1737,7 +1737,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eEtjZIFNjpSTJr48W8la0u3RZI2uZUQTK/pMjVLylpqcnEH72Q=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:C+NElCfhzCBfqDGMEiyhX8jDxSBk+s1FBSSkLHJdRuuhf4aThg=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_PREM"/>
@@ -1757,12 +1757,12 @@
     <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="TRIM" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_TYPE_CD"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CIS_DIVISION"/>
@@ -1830,7 +1830,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="PREM_DATA_AREA"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="TNWR_LZ.LZ_PREM"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="LZ_PREM" name="tDBInput_4">
@@ -2057,43 +2057,43 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="TNWR" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row5.PREM_ID" name="PREM_ID" type="id_String"/>
-        <mapperTableEntries expression="row5.PREM_TYPE_CD" name="PREM_TYPE_CD" type="id_String"/>
-        <mapperTableEntries expression="row5.CIS_DIVISION" name="CIS_DIVISION" type="id_String"/>
-        <mapperTableEntries expression="row5.LL_ID" name="LL_ID" type="id_String"/>
-        <mapperTableEntries expression="row5.KEY_SW" name="KEY_SW" type="id_String"/>
-        <mapperTableEntries expression="row5.KEY_ID" name="KEY_ID" type="id_String"/>
-        <mapperTableEntries expression="row5.OK_TO_ENTER_SW" name="OK_TO_ENTER_SW" type="id_String"/>
-        <mapperTableEntries expression="row5.MR_INSTR_CD" name="MR_INSTR_CD" type="id_String"/>
-        <mapperTableEntries expression="row5.MR_INSTR_DETAILS" name="MR_INSTR_DETAILS" type="id_String"/>
-        <mapperTableEntries expression="row5.MR_WARN_CD" name="MR_WARN_CD" type="id_String"/>
-        <mapperTableEntries expression="row5.TREND_AREA_CD" name="TREND_AREA_CD" type="id_String"/>
-        <mapperTableEntries expression="row5.ADDRESS1" name="ADDRESS1" type="id_String"/>
-        <mapperTableEntries expression="row5.ADDRESS2" name="ADDRESS2" type="id_String"/>
-        <mapperTableEntries expression="row5.ADDRESS3" name="ADDRESS3" type="id_String"/>
-        <mapperTableEntries expression="row5.ADDRESS4" name="ADDRESS4" type="id_String"/>
-        <mapperTableEntries expression="row5.MAIL_ADDR_SW" name="MAIL_ADDR_SW" type="id_String"/>
-        <mapperTableEntries expression="row5.CITY" name="CITY" type="id_String"/>
-        <mapperTableEntries expression="row5.NUM1" name="NUM1" type="id_String"/>
-        <mapperTableEntries expression="row5.NUM2" name="NUM2" type="id_String"/>
-        <mapperTableEntries expression="row5.COUNTY" name="COUNTY" type="id_String"/>
-        <mapperTableEntries expression="row5.POSTAL" name="POSTAL" type="id_String"/>
-        <mapperTableEntries expression="row5.HOUSE_TYPE" name="HOUSE_TYPE" type="id_String"/>
-        <mapperTableEntries expression="row5.GEO_CODE" name="GEO_CODE" type="id_String"/>
-        <mapperTableEntries expression="row5.IN_CITY_LIMIT" name="IN_CITY_LIMIT" type="id_String"/>
-        <mapperTableEntries expression="row5.STATE" name="STATE" type="id_String"/>
-        <mapperTableEntries expression="row5.COUNTRY" name="COUNTRY" type="id_String"/>
+        <mapperTableEntries expression="row5.PREM_TYPE_CD == null?&quot; &quot;:row5.PREM_TYPE_CD" name="PREM_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.CIS_DIVISION == null?&quot; &quot;:row5.CIS_DIVISION" name="CIS_DIVISION" type="id_String"/>
+        <mapperTableEntries expression="row5.LL_ID == null?&quot; &quot;:row5.LL_ID" name="LL_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.KEY_SW == null?&quot; &quot;:row5.KEY_SW" name="KEY_SW" type="id_String"/>
+        <mapperTableEntries expression="row5.KEY_ID == null?&quot; &quot;:row5.KEY_ID " name="KEY_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.OK_TO_ENTER_SW == null?&quot; &quot;:row5.OK_TO_ENTER_SW" name="OK_TO_ENTER_SW" type="id_String"/>
+        <mapperTableEntries expression="row5.MR_INSTR_CD == null?&quot; &quot;:row5.MR_INSTR_CD" name="MR_INSTR_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.MR_INSTR_DETAILS == null?&quot; &quot;:row5.MR_INSTR_DETAILS" name="MR_INSTR_DETAILS" type="id_String"/>
+        <mapperTableEntries expression="row5.MR_WARN_CD == null?&quot; &quot;:row5.MR_WARN_CD" name="MR_WARN_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.TREND_AREA_CD == null?&quot; &quot;:row5.TREND_AREA_CD" name="TREND_AREA_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.ADDRESS1 == null?&quot; &quot;:row5.ADDRESS1" name="ADDRESS1" type="id_String"/>
+        <mapperTableEntries expression="row5.ADDRESS2 == null?&quot; &quot;:row5.ADDRESS2" name="ADDRESS2" type="id_String"/>
+        <mapperTableEntries expression="row5.ADDRESS3 == null?&quot; &quot;:row5.ADDRESS3" name="ADDRESS3" type="id_String"/>
+        <mapperTableEntries expression="row5.ADDRESS4 == null?&quot; &quot;:row5.ADDRESS4" name="ADDRESS4" type="id_String"/>
+        <mapperTableEntries expression="row5.MAIL_ADDR_SW == null?&quot; &quot;:row5.MAIL_ADDR_SW" name="MAIL_ADDR_SW" type="id_String"/>
+        <mapperTableEntries expression="row5.CITY == null?&quot; &quot;:row5.CITY" name="CITY" type="id_String"/>
+        <mapperTableEntries expression="row5.NUM1 == null?&quot; &quot;:row5.NUM1" name="NUM1" type="id_String"/>
+        <mapperTableEntries expression="row5.NUM2 == null?&quot; &quot;:row5.NUM2" name="NUM2" type="id_String"/>
+        <mapperTableEntries expression="row5.COUNTY == null?&quot; &quot;:row5.COUNTY" name="COUNTY" type="id_String"/>
+        <mapperTableEntries expression="row5.POSTAL == null?&quot; &quot;:row5.POSTAL" name="POSTAL" type="id_String"/>
+        <mapperTableEntries expression="row5.HOUSE_TYPE == null?&quot; &quot;:row5.HOUSE_TYPE" name="HOUSE_TYPE" type="id_String"/>
+        <mapperTableEntries expression="row5.GEO_CODE == null?&quot; &quot;:row5.GEO_CODE" name="GEO_CODE" type="id_String"/>
+        <mapperTableEntries expression="row5.IN_CITY_LIMIT == null?&quot; &quot;:row5.IN_CITY_LIMIT" name="IN_CITY_LIMIT" type="id_String"/>
+        <mapperTableEntries expression="row5.STATE == null?&quot; &quot;:row5.STATE" name="STATE" type="id_String"/>
+        <mapperTableEntries expression="row5.COUNTRY == null?&quot; &quot;:row5.COUNTRY" name="COUNTRY" type="id_String"/>
         <mapperTableEntries expression="new BigDecimal(80000)" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row5.ADDRESS1_UPR" name="ADDRESS1_UPR" type="id_String"/>
-        <mapperTableEntries expression="row5.CITY_UPR" name="CITY_UPR" type="id_String"/>
-        <mapperTableEntries expression="row5.TIME_ZONE_CD" name="TIME_ZONE_CD" type="id_String"/>
-        <mapperTableEntries expression="row5.LS_SL_FLG" name="LS_SL_FLG" type="id_String"/>
-        <mapperTableEntries expression="row5.LS_SL_DESCR" name="LS_SL_DESCR" type="id_String"/>
-        <mapperTableEntries expression="row5.PRNT_PREM_ID" name="PRNT_PREM_ID" type="id_String"/>
-        <mapperTableEntries expression="row5.PREM_DATA_AREA" name="PREM_DATA_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row5.ADDRESS1_UPR == null?&quot; &quot;:row5.ADDRESS1_UPR " name="ADDRESS1_UPR" type="id_String"/>
+        <mapperTableEntries expression="row5.CITY_UPR == null?&quot; &quot;:row5.CITY_UPR" name="CITY_UPR" type="id_String"/>
+        <mapperTableEntries expression="row5.TIME_ZONE_CD == null?&quot; &quot;:row5.TIME_ZONE_CD" name="TIME_ZONE_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.LS_SL_FLG == null?&quot; &quot;:row5.LS_SL_FLG" name="LS_SL_FLG" type="id_String"/>
+        <mapperTableEntries expression="row5.LS_SL_DESCR == null?&quot; &quot;:row5.LS_SL_DESCR" name="LS_SL_DESCR" type="id_String"/>
+        <mapperTableEntries expression="row5.PRNT_PREM_ID == null?&quot; &quot;:row5.PRNT_PREM_ID" name="PRNT_PREM_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.PREM_DATA_AREA == null?&quot; &quot;:row5.PREM_DATA_AREA " name="PREM_DATA_AREA" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
         <mapperTableEntries name="PREM_ID" type="id_String"/>
@@ -2149,7 +2149,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:z+WuFPXlv0GRDRTPAUkKCFBt2NdPeiYq8D1mNDZzAhWr32Sr"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Ir4Z6sfNOj8dQURcdwDl8mL/j+NHoAVW7Nrv/gAnllcv1w8p"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PREM&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_PREM/CI_PREM.csv&quot;"/>
@@ -2323,7 +2323,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hHzPoei0REuNXnntPNh+F+Nd3yWaPZqZ47Z3yzvtSxPPeRty"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:V5kILsxMa6TuXjEo6iv9sSD5P5wsDlB/geL085xcjiSTgyUi"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PREM&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2808,13 +2808,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1c0c9034-424b-4db9-a121-6f7205349176"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4/khVPJ/fm7F1GOtkXXZ/8HsMj0wgyVrngUAHMWsHodzHM9G2uipaJKeF+eEYpQchjqK2uPL/YYC&#13;
-b0JwV3A3AA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7bed360a-247b-4eff-b3f6-03806a543eca"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LC3llFxQYgtAxTe1oeD6g8p3cgi9xPE/E/I1S87Az7SIabqJ1VTb1qxsZWfa/C8qsPcbMlzgPIpi&#13;
-WyJDQtdiBw==</DigestValue></Reference></SignedInfo><SignatureValue>AbTw0f6Iqd+n19p/VUD6ccrLKPlbzyf3wWJ1NleDWlppigwxiYW5O4oGs2gwrECx9UCVEeluX9hV&#13;
-wxAJg7Qn+M3E5AAexpOQI4PwAlE7j3IdSq6s5ZBVdwKOhNGufccGyMgzxEMTCSU1DMHbA4UZ5/64&#13;
-o+ddDQKuq6dlnRp8I5XMHsz8o3NOh/HkkjROOEdS6mw53bBnC3CQ4nccTJDCZcIGESG7fQ2AF0Ko&#13;
-yGbPuZA9IuO/7oO5+zF49s7Jf6vyz9Hyme5VRWzSNi0qjKhaNA3HNjrf8G815432zatspxnksjIi&#13;
-7R1kSjiXWDNYIKiVyEgEU5gHhwM6u7GTHPQkgg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c8a36dfc-1b28-4b20-b739-540d3673529e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kglDZ70tvgM1qoaCE8s5A97JSEAUFt7Oo6cMKXSJJm/vKTHCXTsBoKVjsoKB6tV9H2+6ec1wqiju&#13;
+mf5OaySxCA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ff01d41e-a25f-4de1-bef2-31d291bf27a0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QbHgtHxVcShFzhLFP9V+7LsdoVOXPxmQbkqGjHdMRTr0WRAlb+M/POiPfWVjRrYBHBkaf7C03lW2&#13;
+1F3FKxPsRw==</DigestValue></Reference></SignedInfo><SignatureValue>crNKBsPiNoxE0SYMYxu5c0sHmZ9JmvV+qlzh2DacnB0xbiOP53xPSEl513ncCNpqclfIqp6+Se8Y&#13;
+XOZK2ORWf9rF7bAPDGqIV1wFdtOik7imVswWTzhHCrZPjDhoW1oqfpOmVsSK4ybOo1o+yoT/pY1X&#13;
+QFVxpvjX7gIabshHeew6UeU2avrRO2ajF8Aa6PNUciBhQF2/qugT+qp3BvOH4ykDa6liaxho1fbd&#13;
+3SxFyS7/PrmruOnxEKgK3EOwp97GWRm3YWOEFfE4u3FmwSCX1e6QiEPbDHhdyes3s3xEW+FCCCC7&#13;
+OE2urfOpdTTuNeG8TxO/R9MMYVWcMwmu/S9d3A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -2836,4 +2836,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7bed360a-247b-4eff-b3f6-03806a543eca" Target="#_1c0c9034-424b-4db9-a121-6f7205349176"><Timestamp>2021-03-04 05:54:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ff01d41e-a25f-4de1-bef2-31d291bf27a0" Target="#_c8a36dfc-1b28-4b20-b739-540d3673529e"><Timestamp>2021-03-09 10:59:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
