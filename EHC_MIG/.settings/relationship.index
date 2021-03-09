@@ -3037,6 +3037,93 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_bSQzkIC_Eeu5l6XZybpXKw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0GP0gFx2Eeu7Jv4lzsIfHw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_N4k5AGYNEeuMVN6gzRGzEg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dr-9AFxtEeu7Jv4lzsIfHw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_fM9K4GYNEeuMVN6gzRGzEg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ym73UGYNEeuMVN6gzRGzEg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_0GP0gFx2Eeu7Jv4lzsIfHw - CI_ACCT_ALERT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_N4k5AGYNEeuMVN6gzRGzEg - LZ_ACCT_ALERT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dr-9AFxtEeu7Jv4lzsIfHw - LZ_ACCT_ALERT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_fM9K4GYNEeuMVN6gzRGzEg - LZ_ACCT_ALERT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ym73UGYNEeuMVN6gzRGzEg - LZ_ACCT_ALERT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_cE7Y8H_2Eeu5l6XZybpXKw",
     "version" : "0.1",
     "type" : "job"
