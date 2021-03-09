@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:OKy+JhluRrPNuNq+vgN963GfQKhEsTTgleRLF/L8"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:CpnBDBCiBeV9y1ouJQVA7MUIobECa/2WoUpPsc6V"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:0Nma8AvMZmFxnnczeD3h4SII1KwI0Y/FkoPfgpD9"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TgOljTctE4ny9cnkHogCKUO3ZDWrwQVvO5aRdSiY"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -139,7 +139,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G2EH+wkM9jtuyYJaOKT+sM4UC1SZpehdYfdu9OKvTEtlDD7l"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qKaHN3gZpwgew4dinJF5A9s9GBAW7PHh4YqKKQQ1nW0U3ObC"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_SP_OP_AREA&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -210,7 +210,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OfB4OiBAkxF9u38i1hy6fbJc/4gAslD1Q4B1TbGgxuLZBN1m"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZNfbO8tfWeIicOAo9if5/ptpSMRc+C4NyyblchqwgpkJtJCi"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_SP_OP_AREA&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -309,9 +309,9 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8rk8NECwW5MI/bkceBU9aed30NIuaGT1l/kYPmZLT7448QibdQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9c0kk5vuUI8+8tjF5+Yx+oSxcBVXQUSlmsddZYIHwGkyoefnOA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_SP_OP_AREA"/>
@@ -391,7 +391,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.SP_ID" name="SP_ID" type="id_String"/>
@@ -409,8 +409,6 @@
   </node>
   <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUnite_1"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - CI_SP_OP_AREA"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="CI_SP_OP_AREA" name="tUnite_1">
       <column comment="" key="true" length="10" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
@@ -443,7 +441,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9e8SrA34aWey6VMvLioHVPJEJBx2aOXd2pye4FDpcWYyDLgP"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:znnmmCtRHLL7MoAPKBiyb2F9SCh9copREAGpcsLJnF6PpBhM"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_SP_OP_AREA&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_SP_OP_AREA/CI_SP_OP_AREA.csv&quot;"/>
@@ -524,7 +522,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:f5KxcpcJYAmTunasC9sz99LhZhjdBXtqm0m9CSodjkOCGkL3og=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aw8f4W8g9RUzCEhotaPvo2ctwF4gKjL0P9/jsBcqMmdyvlZf7g=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_SP_OP_AREA"/>
@@ -604,7 +602,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MEDC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row3.SP_ID" name="SP_ID" type="id_String"/>
@@ -636,7 +634,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ImriAbPhJ1qpS57m3oRi1c0bxZH/PEE5fgbje/9Bx80/H9RLWQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yzTlNZkkEpBIq5dP9mNxEywpjR/T4B4SPBmvltRJYFm2FwEbTA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_SP_OP_AREA"/>
@@ -748,7 +746,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ra1yOiofQe6ZQrVnuJexJ8LUtJHsU2zBWA7htTIGyklxbRzqVg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7d6nRyHLPGvIIEY8XB1sf+bL1DEwEbD5z8gNWcIg1HTV+5afwA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_SP_OP_AREA"/>
@@ -911,13 +909,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_20401f42-df4f-4e5e-83f9-5fd8960e5c9c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PR4yCV9tQmm4Glqu9EnhgiAE+P+bwOt5k0NMb4mQfu/aj3uobr71S6RkavTic3P28ccpN6drQj+N&#13;
-ykY6djGU2Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f55919e0-e22a-4244-9d14-89e4e0e56293"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ml9FBg7wKyFLJx/FvRMVihE8tUOWUKLhzMLZySoiu/lVVS9snAi2ssO+iO/vIYWcE7th+bWWQtP8&#13;
-KCxUVYxBQA==</DigestValue></Reference></SignedInfo><SignatureValue>Yfw8OJJJHUnS1sROysELnjqNg958+B4F2k2hmboDekhZGv7Gbsb33uKl7ybpLiHcmS/bYNGgU+ss&#13;
-AK3NDzgBqBY7UiXuBDSojzSy6rTYrsvvvJnHMlfq4NuFWFlErXNXBGnwMsJ51UYr2SbtJzqGMi9C&#13;
-jzMg7SGW/o4/Nfh6neclKAiPWIocWadZt0mAK3eg+penlA/3Q5LeLZRw3jh/H2KX7yq9vSkeuPnf&#13;
-FQjcIvvQS30Z49TirDMZc/0cD+pQeQXvNjIW6TrUPGQkG3dyYHjvOo6ER/BdaiteSw2p96JkG51a&#13;
-B2ZnJw4GoHxcz7qg7/XNA2ulaf3Pg8GqmRBQcA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9f958536-441d-4bdf-82a3-0532f4c21d9a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cHgoIvgXSBHUs16aMXfyOSnPeymgreO0FkhDzUb8e7nkLjHnLSLb1jiMi5ZLiFR4IHgxj/J8HPEp&#13;
+FvP7vzcQKQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_74cd29db-e1b2-4b75-bb28-804b9a6492f5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1hUICGpFEmKnCK9b4Yh/bPaqxUaGpdOuJY361cwJEnCDlDjEv1S9yi3DmEY/KtTALRDz9GTqPgh5&#13;
+qzasdAyFAQ==</DigestValue></Reference></SignedInfo><SignatureValue>cU0ZvAJwqjvaRCEUMB4Uy9fUWyXKzVp/lQ+/pKJziEkKHALcJlGcHOA9lOxBYys+YhjiX64QGtL8&#13;
+JldALH5y83SQWvhJ7xyZTWqQmSsUkBPrr+w+WSAINpJwBKocVKBXM+sTL5/Otj0E2rSC+8Vvl19H&#13;
+tRQSXdnxYw16/a8RcPa31cuux8cZbYutKh9AIch0n0f34YunGCo5koVgwTIHWN1jnFwnEHiphCQG&#13;
+joCIVi76nn3hMusHoZB971iD6nps8f672/skJPJfiF5YGBmc1BiDovpiMvwuBc8+yZoV0bWijiJ0&#13;
+2e+EGGUMiaJ5ZzSLz401S03VjvRiARa7yxD9Lw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -939,4 +937,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f55919e0-e22a-4244-9d14-89e4e0e56293" Target="#_20401f42-df4f-4e5e-83f9-5fd8960e5c9c"><Timestamp>2021-03-04 05:54:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_74cd29db-e1b2-4b75-bb28-804b9a6492f5" Target="#_9f958536-441d-4bdf-82a3-0532f4c21d9a"><Timestamp>2021-03-09 12:20:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
