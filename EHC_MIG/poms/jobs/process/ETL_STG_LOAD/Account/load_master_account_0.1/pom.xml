@@ -129,6 +129,11 @@
     </dependency>
     <dependency>
       <groupId>org.example.ehc_mig.job</groupId>
+      <artifactId>Load_Stg_Acct_Alert</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.ehc_mig.job</groupId>
       <artifactId>Load_Stg_Acct_Char</artifactId>
       <version>0.1.0</version>
     </dependency>
