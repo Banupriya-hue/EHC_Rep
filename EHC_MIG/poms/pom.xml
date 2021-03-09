@@ -61,6 +61,7 @@
     <module>jobs/process/ETL_STG_LOAD/FieldActivity/load_stg_fa_rem_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/FieldActivity/load_stg_fo_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Person_Old/load_master_person_copy_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Person_Old/load_stg_per_char_copy_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
