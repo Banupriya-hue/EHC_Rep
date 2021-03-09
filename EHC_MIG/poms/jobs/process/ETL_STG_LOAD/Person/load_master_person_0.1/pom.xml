@@ -124,6 +124,11 @@
     </dependency>
     <dependency>
       <groupId>org.example.ehc_mig.job</groupId>
+      <artifactId>Load_Stg_Person</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.ehc_mig.job</groupId>
       <artifactId>Load_Stg_Per_Contdet</artifactId>
       <version>0.1.0</version>
     </dependency>
@@ -135,11 +140,6 @@
     <dependency>
       <groupId>org.example.ehc_mig.job</groupId>
       <artifactId>Load_Stg_Per_Char</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.ehc_mig.job</groupId>
-      <artifactId>Load_Stg_Person</artifactId>
       <version>0.1.0</version>
     </dependency>
     <dependency>
