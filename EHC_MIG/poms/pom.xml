@@ -57,6 +57,7 @@
     <module>jobs/process/ETL_STG_LOAD/Payplan/load_stg_pp_sched_pay_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/CustomerContact/load_stg_cc_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/FieldActivity/load_stg_fa_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/FieldActivity/load_stg_fa_char_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
