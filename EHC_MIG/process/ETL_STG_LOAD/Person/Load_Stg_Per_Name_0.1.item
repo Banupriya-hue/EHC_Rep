@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:o4EpHn7gZwxYX9UdJrzx/SVLOF8wRCbO836KlL8r"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Bo/K1VZ3Q+yPBBYVdwhb0IAlKUI+m+WV6fQcMSzt"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LI0pPaYGD9P49cY3uPtLd3sFY/fOzwvnxSA+ImqP"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8Y4RTdqRJGMzYHYWTfaRfIpYOxH1Ca5mW9GMFUfE"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -126,9 +126,9 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vR1JaZpX8dnGhVdBXEc5QMh7gWcgcj/h2ldH4WORn1D8mzVNYw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3Y/sCMVN5xa+uouIsOnJVz5ui0ynl2d67PzQoSeOwlXFEOXD7w=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_PER_NAME"/>
@@ -232,14 +232,14 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.RIGHT(row1.PER_ID,8) " name="PER_ID" type="id_String"/>
         <mapperTableEntries expression="row1.SEQ_NUM " name="SEQ_NUM" type="id_BigDecimal"/>
         <mapperTableEntries expression="row1.ENTITY_NAME == null?&quot; &quot;:row1.ENTITY_NAME " name="ENTITY_NAME" type="id_String"/>
         <mapperTableEntries expression="row1.NAME_TYPE_FLG == null?&quot; &quot;:row1.NAME_TYPE_FLG " name="NAME_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries expression="row1.VERSION" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="new BigDecimal(60000)" name="VERSION" type="id_BigDecimal"/>
         <mapperTableEntries expression="row1.PRIM_NAME_SW == null?&quot; &quot;:row1.PRIM_NAME_SW " name="PRIM_NAME_SW" type="id_String"/>
         <mapperTableEntries expression="row1.ENTITY_NAME_UPR == null?&quot; &quot;:row1.ENTITY_NAME_UPR " name="ENTITY_NAME_UPR" type="id_String"/>
       </outputTables>
@@ -299,7 +299,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TzDqfReJVPTvAGWT8lTUGk1RMQbaRYjSTKlvk7va7+E8rNaz"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Md3q6z2Qiqz9e1ue/gXl6vhOufXIDWORJwDEy++0uKt8NV4z"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PER_NAME&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_PER_NAME/CI_PER_NAME.csv&quot;"/>
@@ -337,8 +337,6 @@
       <elementValue elementRef="VALUE" value="TRUE"/>
       <elementValue elementRef="KEY" value="READSIZE"/>
       <elementValue elementRef="VALUE" value="9948576"/>
-      <elementValue elementRef="KEY" value="COLUMNARRAYROWS"/>
-      <elementValue elementRef="VALUE" value="4000"/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="DEFAULT"/>
     <elementParameter field="CHECK" name="SET_NLS_TERRITORY" value="true"/>
@@ -417,7 +415,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eqe0bMUfnPw3gMvUQl1SaGJXm1wM6uTo6g8ZAFZ58a2FTsfI5w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6s6l0x7ehtZTJaS8ZF+UhfD+wSj6o1EO0oYqDL4SZ0U7WnKe/A=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_PER_NAME"/>
@@ -439,10 +437,10 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
       <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="TRIM" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SEQ_NUM"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ENTITY_NAME"/>
@@ -521,15 +519,15 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MEDC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.RIGHT(row2.PER_ID,8) " name="PER_ID" type="id_String"/>
         <mapperTableEntries expression="row2.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row2.ENTITY_NAME" name="ENTITY_NAME" type="id_String"/>
-        <mapperTableEntries expression="row2.NAME_TYPE_FLG" name="NAME_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries expression="row2.VERSION" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row2.PRIM_NAME_SW" name="PRIM_NAME_SW" type="id_String"/>
+        <mapperTableEntries expression="row2.ENTITY_NAME == null?&quot; &quot;:row2.ENTITY_NAME" name="ENTITY_NAME" type="id_String"/>
+        <mapperTableEntries expression="row2.NAME_TYPE_FLG == null?&quot; &quot;:row2.NAME_TYPE_FLG" name="NAME_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(20000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row2.PRIM_NAME_SW == null?&quot; &quot;:row2.PRIM_NAME_SW" name="PRIM_NAME_SW" type="id_String"/>
         <mapperTableEntries expression="row2.ENTITY_NAME_UPR == null?&quot; &quot;:row2.ENTITY_NAME_UPR " name="ENTITY_NAME_UPR" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
@@ -559,7 +557,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L6LgcdttFc6QUE1mcLeUdxqB8nX4Tq8olI5POFflfXkMVFggxQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SEctIlyd29SvVF4nh0Zywjknd5xwZzM9LGJWVpqAaQ8bGVaAFQ=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_PER_NAME"/>
@@ -598,7 +596,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="ENTITY_NAME_UPR"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="MJEC_LZ.LZ_PER_NAME"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="LZ_PER_NAME" name="tDBInput_3">
@@ -663,16 +661,16 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MJEC" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="PER_ID" type="id_String"/>
-        <mapperTableEntries name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries name="ENTITY_NAME" type="id_String"/>
-        <mapperTableEntries name="NAME_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries name="PRIM_NAME_SW" type="id_String"/>
-        <mapperTableEntries name="ENTITY_NAME_UPR" type="id_String"/>
+        <mapperTableEntries expression="StringHandling.RIGHT(row4.PER_ID,8) " name="PER_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.ENTITY_NAME == null?&quot; &quot;:row4.ENTITY_NAME" name="ENTITY_NAME" type="id_String"/>
+        <mapperTableEntries expression="row4.NAME_TYPE_FLG == null?&quot; &quot;:row4.NAME_TYPE_FLG" name="NAME_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(40000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.PRIM_NAME_SW == null?&quot; &quot;:row4.PRIM_NAME_SW" name="PRIM_NAME_SW" type="id_String"/>
+        <mapperTableEntries expression="row4.ENTITY_NAME_UPR == null?&quot; &quot;:row4.ENTITY_NAME_UPR" name="ENTITY_NAME_UPR" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
         <mapperTableEntries name="PER_ID" type="id_String"/>
@@ -701,7 +699,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MAQRUrXq7Ry3cajRy1l0jMtNdlDesBmHOl0ki3oT3aHOGM7Xmw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YK+TO7Q4TsMSf8VbZR33Fq+wdu40DxuOlEmX8dxElITr0wEA6A=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_PER_NAME"/>
@@ -740,7 +738,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="ENTITY_NAME_UPR"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="TNWR_LZ.LZ_PER_NAME"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="LZ_PER_NAME" name="tDBInput_4">
@@ -805,16 +803,16 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="TNWR" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row5.PER_ID" name="PER_ID" type="id_String"/>
+        <mapperTableEntries expression="StringHandling.RIGHT(row5.PER_ID,8) " name="PER_ID" type="id_String"/>
         <mapperTableEntries expression="row5.SEQ_NUM" name="SEQ_NUM" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row5.ENTITY_NAME" name="ENTITY_NAME" type="id_String"/>
-        <mapperTableEntries expression="row5.NAME_TYPE_FLG" name="NAME_TYPE_FLG" type="id_String"/>
-        <mapperTableEntries expression="row5.VERSION" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row5.PRIM_NAME_SW" name="PRIM_NAME_SW" type="id_String"/>
-        <mapperTableEntries expression="row5.ENTITY_NAME_UPR" name="ENTITY_NAME_UPR" type="id_String"/>
+        <mapperTableEntries expression="row5.ENTITY_NAME == null?&quot; &quot;:row5.ENTITY_NAME" name="ENTITY_NAME" type="id_String"/>
+        <mapperTableEntries expression="row5.NAME_TYPE_FLG == null?&quot; &quot;:row5.NAME_TYPE_FLG" name="NAME_TYPE_FLG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(80000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row5.PRIM_NAME_SW == null?&quot; &quot;:row5.PRIM_NAME_SW" name="PRIM_NAME_SW" type="id_String"/>
+        <mapperTableEntries expression="row5.ENTITY_NAME_UPR == null?&quot; &quot;:row5.ENTITY_NAME_UPR" name="ENTITY_NAME_UPR" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
         <mapperTableEntries name="PER_ID" type="id_String"/>
@@ -843,7 +841,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NwTIe3pdcKSu99Xs/8cr7T0afxBvSSEHFxpCiYJDt2OrRCcS"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WQ28R09jy6+VaQ2kEVmci7EdNy9CIHYaztVsLOoI4hNExYrs"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - CI_PER_NAME"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PER_NAME&quot;"/>
@@ -917,73 +915,6 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="384">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
-    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" show="false" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogCatcher_1">
-      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="384">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
-    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
-    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_PER_NAME/Fetal_error&quot;"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="CHECK" name="APPEND" value="true"/>
-    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
-    <elementParameter field="CHECK" name="COMPRESS" show="false" value="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="CHECK" name="SPLIT" value="false"/>
-    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
-    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
-    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
-    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileOutputDelimited_1">
-      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStop_1"/>
     <elementParameter field="RADIO" name="SINCE_BEGINNING" value="true"/>
@@ -1037,10 +968,6 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
-  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tFileOutputDelimited_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
-  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStart_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
@@ -1057,22 +984,17 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStop_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_16afcb20-761c-49d4-8705-6f557128d405"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mapeCi494pyQqTyj71QCB0eAk0my0Sj/2NCN+ZG7AsVPZOo3+Zstr7cI/LdIi7slupOUsPwPsGq7&#13;
-mXdJgrDM5Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_49427899-7b72-4ff1-b343-c4e487e16df3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7j/DqAYhfvycp3Ukd39jxTIX47AdSRh+iBAl3pMAF6eRHPqdhc9Tv7Jc1U9c0o+WGhsuxqz3Pb3h&#13;
-b5NgCNTSdQ==</DigestValue></Reference></SignedInfo><SignatureValue>lkkrAYx/ZT/06KhmJGtoaT/4JyRy6vJkhAxYCp2bCOUEH/5+CwAEfzwzhModd+YSBEnCldgcaQkc&#13;
-SQ4L3Miz5HoqG4mPRM2chHQ3CL+c2GdaOkjVk2+dyv2ccaHVPwLpF+KkO9f5Ek/02w0QWhEUl0qm&#13;
-eWxU8BPIfBWDvO47jaElDjCgkMGdsU2VQ9XCkj1VXJWftJe4VDy0HNWKrGWmP2Ct+qmHD+Vds4AI&#13;
-X2Lu0YFaI+PCBj3tKNd4wdHz36JDKdxjubzPFhnq20gP+n5PIvwHSpqcuYplJ/3PKkvp4vnepcSx&#13;
-A9CekwFxl0tEG1eswh9A3UGKiuH9bq7GoqSRdw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e492b2d7-dca7-444a-ab6b-b9869309da67"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VksR0ywzydQaM2Hoq7uImjH4X81Zxr2mQFOdD+KYJGgX+iOkgpIxYHnN4XVlz9wzrBO2pKggCCJ+&#13;
+UUsZPFJbGw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2fe22481-004d-477f-975c-443562805d51"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8CcFq0E3ZnpkVjxUZaH9ECRT/XyUlb7JQHEEQs3XJtwby5s6D7zNOCBtZlc6c4NRP9HrEE+J/awx&#13;
+M1RqlcjX8A==</DigestValue></Reference></SignedInfo><SignatureValue>JopwyXLtCN3aDk161AAGEoUENISiU4fzT0b+N/uVvl2pNx4d1/3aVfHuCByymY5Y0AFI8Bcqf7S2&#13;
+Dmg6R6AzYFZDcuOKSJ3BgBmSfJZOM5L/AGPb70S7GC3nEXPx9FHbcyOnAlaiWoC41q5YrJWeASo4&#13;
+X0dPNqetGS9ffuR0jQQOjUoMNvGZqDBUNI78dSUMWzBXDvTZHF7q1TSQZ7CIMRv7lOVtqeeyEQET&#13;
+ajmYJqjBtNeniIDm8czdaJZA1OgMg+06AX2GxLS9QQUKeA2TTCJaK6AfxZP8u9rOqsrEgzgkE+52&#13;
+u8YxhAA7pqwWNIVi1GEBhRoBA6z1qJamB+m3vg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1094,4 +1016,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_49427899-7b72-4ff1-b343-c4e487e16df3" Target="#_16afcb20-761c-49d4-8705-6f557128d405"><Timestamp>2021-03-04 05:54:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2fe22481-004d-477f-975c-443562805d51" Target="#_e492b2d7-dca7-444a-ab6b-b9869309da67"><Timestamp>2021-03-09 07:09:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
