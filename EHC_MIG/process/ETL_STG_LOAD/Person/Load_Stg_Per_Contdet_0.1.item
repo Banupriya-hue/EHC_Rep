@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:IEkh4SU6VnJgTUfynFVJzTbYKZko/5sBa2nxzH7f"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:FLb9NUGHz1IImqd75gH3P5New2RD6udiWxqkGcr3"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cLDTfQgDoNRbhez3GUCZk7YuOq6ZU+EN21mSk1ZP"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:pl62VvOT2zWQSJkL/ye/Pswyt6sEOOHmJjbO8vLY"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -129,7 +129,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6uEAxSsyp0RbehBjbkj+DmZEQTT+6b3uv8ktzKxNugt6quRN"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Sja5C4CxdaDKN5C7HE3Ue/JN5bFXRA8Zi7a9U4V2cJP8UrxT"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - C1_PER_CONTDET"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;C1_PER_CONTDET&quot;"/>
@@ -259,9 +259,9 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:atB2gPjqj8sFEsfbXVuypGOeUq9qaq4q6SRhXvMsIxZbltrZHA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zGSygtYz6s8t2Y1c3tGAbepAoo1V2qCUTd5ihmH4DhQeM5uEkw=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_PER_CONTDET"/>
@@ -405,7 +405,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.C1_CONTACT_ID" name="C1_CONTACT_ID" type="id_String"/>
@@ -497,7 +497,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aZt3PszTkZLE5J3Tqjc+X8IOD5wd3xKVl8TeYZtMqhNmsbbD"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hFVbP3480wPJwmbLCmw1Pl2TnE52txnq9V2hNVFbaW9SWtCY"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;C1_PER_CONTDET&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_PER_CONTDET/CI_PER_CONTDET.csv&quot;"/>
@@ -544,7 +544,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="OPENED_LIST" name="ORACLE_ENCODING" value="&quot;UTF8&quot;"/>
     <elementParameter field="CLOSED_LIST" name="OUTPUT" value="OUTPUT_TO_CONSOLE"/>
-    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="true"/>
     <elementParameter field="TEXT" name="BUFFER_SIZE" value="8192"/>
     <elementParameter field="TEXT" name="STRING_BUILDER_SIZE" value="1024"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
@@ -604,7 +604,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N0rYoTSTGBGQ1CAsNO2SHs/LuAq3w1F3eRxdfVupDJR8XBA5Qg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u2wUy9kmrwDsCCctFdONBfRyeJEJ6EJFaPm42C2JbfuaBGmaUg=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_PER_CONTDET"/>
@@ -695,7 +695,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -748,21 +748,21 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MEDC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row3.C1_CONTACT_ID" name="C1_CONTACT_ID" type="id_String"/>
-        <mapperTableEntries expression="StringHandling.RIGHT(row3.PER_ID,8) " name="PER_ID" type="id_String"/>
-        <mapperTableEntries expression="row3.COMM_RTE_TYPE_CD" name="COMM_RTE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries expression="row3.CONTACT_VALUE" name="CONTACT_VALUE" type="id_String"/>
-        <mapperTableEntries expression="row3.CND_PRIMARY_FLG" name="CND_PRIMARY_FLG" type="id_String"/>
-        <mapperTableEntries expression="row3.CONTACT_VALUE_EXT" name="CONTACT_VALUE_EXT" type="id_String"/>
+        <mapperTableEntries expression="row3.PER_ID == null?&quot; &quot;:StringHandling.RIGHT(row3.PER_ID,8)" name="PER_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.COMM_RTE_TYPE_CD == null?&quot; &quot;:row3.COMM_RTE_TYPE_CD" name="COMM_RTE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.CONTACT_VALUE == null?&quot; &quot;:row3.CONTACT_VALUE" name="CONTACT_VALUE" type="id_String"/>
+        <mapperTableEntries expression="row3.CND_PRIMARY_FLG == null?&quot; &quot;:row3.CND_PRIMARY_FLG" name="CND_PRIMARY_FLG" type="id_String"/>
+        <mapperTableEntries expression="row3.CONTACT_VALUE_EXT == null?&quot; &quot;:row3.CONTACT_VALUE_EXT" name="CONTACT_VALUE_EXT" type="id_String"/>
         <mapperTableEntries expression="row3.DND_START_TM" name="DND_START_TM" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row3.DND_END_TM" name="DND_END_TM" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row3.CND_VERIF_STATUS_FLG" name="CND_VERIF_STATUS_FLG" type="id_String"/>
-        <mapperTableEntries expression="row3.CND_ACTINACT_FLG" name="CND_ACTINACT_FLG" type="id_String"/>
+        <mapperTableEntries expression="row3.CND_VERIF_STATUS_FLG == null?&quot; &quot;:row3.CND_VERIF_STATUS_FLG" name="CND_VERIF_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row3.CND_ACTINACT_FLG == null?&quot; &quot;:row3.CND_ACTINACT_FLG" name="CND_ACTINACT_FLG" type="id_String"/>
         <mapperTableEntries expression="new BigDecimal(20000) " name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row3.CONTACT_NAME" name="CONTACT_NAME" type="id_String"/>
+        <mapperTableEntries expression="row3.CONTACT_NAME == null?&quot; &quot;:row3.CONTACT_NAME" name="CONTACT_NAME" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
         <mapperTableEntries name="C1_CONTACT_ID" type="id_String"/>
@@ -796,7 +796,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UGauH/ctWfcEoa6jgGjKtxveXTFiDm62E4AoEAFwniSVe6lxrQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ui3UElj8yl3UFB5pWOsNKaBzhtFrwxSm44f+El0/O0sVvXxiZA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_PER_CONTDET"/>
@@ -887,7 +887,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="320">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -940,21 +940,21 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MJEC" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row4.C1_CONTACT_ID" name="C1_CONTACT_ID" type="id_String"/>
-        <mapperTableEntries expression="row4.PER_ID" name="PER_ID" type="id_String"/>
-        <mapperTableEntries expression="row4.COMM_RTE_TYPE_CD" name="COMM_RTE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries expression="row4.CONTACT_VALUE" name="CONTACT_VALUE" type="id_String"/>
-        <mapperTableEntries expression="row4.CND_PRIMARY_FLG" name="CND_PRIMARY_FLG" type="id_String"/>
-        <mapperTableEntries expression="row4.CONTACT_VALUE_EXT" name="CONTACT_VALUE_EXT" type="id_String"/>
+        <mapperTableEntries expression="StringHandling.RIGHT(row4.C1_CONTACT_ID,8) " name="C1_CONTACT_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.PER_ID == null?&quot; &quot;:StringHandling.RIGHT(row4.PER_ID,8)" name="PER_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.COMM_RTE_TYPE_CD == null?&quot; &quot;:row4.COMM_RTE_TYPE_CD" name="COMM_RTE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.CONTACT_VALUE == null?&quot; &quot;:row4.CONTACT_VALUE" name="CONTACT_VALUE" type="id_String"/>
+        <mapperTableEntries expression="row4.CND_PRIMARY_FLG == null?&quot; &quot;:row4.CND_PRIMARY_FLG" name="CND_PRIMARY_FLG" type="id_String"/>
+        <mapperTableEntries expression="row4.CONTACT_VALUE_EXT == null?&quot; &quot;:row4.CONTACT_VALUE_EXT" name="CONTACT_VALUE_EXT" type="id_String"/>
         <mapperTableEntries expression="row4.DND_START_TM" name="DND_START_TM" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row4.DND_END_TM" name="DND_END_TM" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row4.CND_VERIF_STATUS_FLG" name="CND_VERIF_STATUS_FLG" type="id_String"/>
-        <mapperTableEntries expression="row4.CND_ACTINACT_FLG" name="CND_ACTINACT_FLG" type="id_String"/>
+        <mapperTableEntries expression="row4.CND_VERIF_STATUS_FLG == null?&quot; &quot;:row4.CND_VERIF_STATUS_FLG" name="CND_VERIF_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row4.CND_ACTINACT_FLG == null?&quot; &quot;:row4.CND_ACTINACT_FLG" name="CND_ACTINACT_FLG" type="id_String"/>
         <mapperTableEntries expression="new BigDecimal(40000)" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row4.CONTACT_NAME" name="CONTACT_NAME" type="id_String"/>
+        <mapperTableEntries expression="row4.CONTACT_NAME == null?&quot; &quot;:row4.CONTACT_NAME" name="CONTACT_NAME" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
         <mapperTableEntries name="C1_CONTACT_ID" type="id_String"/>
@@ -988,7 +988,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NrZsC9iFpJIiZCxEYIRCaAmGkDC9aM43WK7lA1hdyEjwfAaOYQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YOmBEf2TfiOXZWR5rxiVKzXD3nYq4K5SCExwtWsdx0G/8ZSSWg=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_PER_CONTDET"/>
@@ -1008,14 +1008,14 @@
     <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
       <elementValue elementRef="SCHEMA_COLUMN" value="C1_CONTACT_ID"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="TRIM" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="TRIM" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="COMM_RTE_TYPE_CD"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_VALUE"/>
@@ -1037,7 +1037,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_NAME"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="TNWR_LZ.LZ_PER_CONTDET"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="LZ_PER_CONTDET" name="tDBInput_4">
@@ -1079,7 +1079,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="384">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -1132,21 +1132,21 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="TNWR" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row5.C1_CONTACT_ID" name="C1_CONTACT_ID" type="id_String"/>
-        <mapperTableEntries expression="row5.PER_ID" name="PER_ID" type="id_String"/>
-        <mapperTableEntries expression="row5.COMM_RTE_TYPE_CD" name="COMM_RTE_TYPE_CD" type="id_String"/>
-        <mapperTableEntries expression="row5.CONTACT_VALUE" name="CONTACT_VALUE" type="id_String"/>
-        <mapperTableEntries expression="row5.CND_PRIMARY_FLG" name="CND_PRIMARY_FLG" type="id_String"/>
-        <mapperTableEntries expression="row5.CONTACT_VALUE_EXT" name="CONTACT_VALUE_EXT" type="id_String"/>
+        <mapperTableEntries expression="StringHandling.RIGHT(row5.C1_CONTACT_ID,8) " name="C1_CONTACT_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.PER_ID == null?&quot; &quot;:StringHandling.RIGHT(row5.PER_ID,8)" name="PER_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.COMM_RTE_TYPE_CD == null?&quot; &quot;:row5.COMM_RTE_TYPE_CD" name="COMM_RTE_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.CONTACT_VALUE == null?&quot; &quot;:row5.CONTACT_VALUE" name="CONTACT_VALUE" type="id_String"/>
+        <mapperTableEntries expression="row5.CND_PRIMARY_FLG == null?&quot; &quot;:row5.CND_PRIMARY_FLG" name="CND_PRIMARY_FLG" type="id_String"/>
+        <mapperTableEntries expression="row5.CONTACT_VALUE_EXT == null?&quot; &quot;:row5.CONTACT_VALUE_EXT " name="CONTACT_VALUE_EXT" type="id_String"/>
         <mapperTableEntries expression="row5.DND_START_TM" name="DND_START_TM" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5.DND_END_TM" name="DND_END_TM" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5.CND_VERIF_STATUS_FLG" name="CND_VERIF_STATUS_FLG" type="id_String"/>
-        <mapperTableEntries expression="row5.CND_ACTINACT_FLG" name="CND_ACTINACT_FLG" type="id_String"/>
+        <mapperTableEntries expression="row5.CND_VERIF_STATUS_FLG == null?&quot; &quot;:row5.CND_VERIF_STATUS_FLG" name="CND_VERIF_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row5.CND_ACTINACT_FLG == null?&quot; &quot;:row5.CND_ACTINACT_FLG" name="CND_ACTINACT_FLG" type="id_String"/>
         <mapperTableEntries expression="new BigDecimal(80000)" name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row5.CONTACT_NAME" name="CONTACT_NAME" type="id_String"/>
+        <mapperTableEntries expression="row5.CONTACT_NAME == null?&quot; &quot;:row5.CONTACT_NAME" name="CONTACT_NAME" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
         <mapperTableEntries name="C1_CONTACT_ID" type="id_String"/>
@@ -1310,13 +1310,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9d245c1d-f71f-4fe1-9420-66f7c5f9549d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EZUCAzS/ySw8oGG4eIL7rGC4q2xqJlUeRt/KwOz2E2DbmufsIj8u1mtXjja6H6KGtyboIzV3/nlP&#13;
-GbtejQSCLQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8ebfce08-7598-4c01-84fe-c8640575373f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Z3cHIE2qSHqM++uV9FyF9ujwfbUPInCxknXuCk0IYb96kEOkgyDD8nGkAGiio5UcahAWp86ylhOD&#13;
-6y1puYMsMQ==</DigestValue></Reference></SignedInfo><SignatureValue>Cm4Wa/dq/S1cvpZk0gTshzqqVpx03p8tyl8EaCJX3ZX8fhMYdAyW7sP+n3thvoiVHonNCiP59SjR&#13;
-dg6JjW4YTL4uat9f9riStqnFBe3zudvR+dCWw1SKzoZQzzW4tWmhEE2EATvVwFFGE85L/COZ5mFr&#13;
-sYrkj5tV3olyWSzEZjLgE3rvB/mYI2mGn58H/Mf1iUs4NBSMLK35l+ORoxcuNoHFvn3vSZp1YXyj&#13;
-JcAOYSiw0zkIA4bFVfEdlLpC1vZ/EFbKK95JiWwC4TQC9VScML+x7gozDMZx8bLyXMusVqWkVdQK&#13;
-K5OcdJ5utldnYxPOR5eaZQEFsWagxkt4j9NSgA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2698dd24-4030-4ad7-aeab-7f055c362594"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AY6sFcW25m9533lC5AoSAQQ7yxF7cpzFcVW5gJ5IHXaXIo+pEOfsAbmjXUD6FBCbgSu0HF4FvLoC&#13;
+TtbFURuaAg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9727183e-a732-44fa-8e02-70e60b86b6c0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ntrhOl05ut/PT8yOLAuEnRPwYyhI+9tWy7CTjIS/Yy+ggdaNt0zllTQrfEkGhvnrgl/7V3FV/V4r&#13;
+jYGW10labA==</DigestValue></Reference></SignedInfo><SignatureValue>IV6nLBddqNFyk0vaQZNZ42api2F0TyzVjeDnWFJrcY0tlEEner3drFaiMPs1aNIBAZPMrYkY4bnO&#13;
+kPax4ZlV6Dn8p4JTKyoDDoKE1d+7BJjFszxZiGec6AGQ1E64yWcLM+MLmV1hN2OHlzs/4LNy3EXl&#13;
+sT790DZflLM3TnOInVJASmOtNBqYBvYpw9c2AqFWtYyHoetfhCv9difo0WHThAPnc7yZF5dDEwzZ&#13;
+TQSpSx4wQUDNntUIRgl107HIG5p1ZNm6+h9NU59t1qcPE7uISHYPnvN2EPl3NOaKXcOdbzpVfVT/&#13;
+NcZDq1yt6v87zWeV25ydW0j0tJ3aDhi/rFhpOg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1338,4 +1338,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8ebfce08-7598-4c01-84fe-c8640575373f" Target="#_9d245c1d-f71f-4fe1-9420-66f7c5f9549d"><Timestamp>2021-03-04 05:54:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9727183e-a732-44fa-8e02-70e60b86b6c0" Target="#_2698dd24-4030-4ad7-aeab-7f055c362594"><Timestamp>2021-03-09 06:45:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
