@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/gUAWcBNwlyksbFn+Kt6y/dfi3ywm8xH4lPNNHwq"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:7EzMSdY0oJXIov7C2jvNCcr6BnQHqmXU/igf7D3O"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JnqOvm+myGMqmu4o+GUlWSjs/StA3Yo2Db26xGam"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:VsNge45W9hVB6Qs4t4ov6KuA3zWQV5uKS0abQ+1t"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -128,7 +128,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:K+g6aIPddSnUl2ejDY6pj4InHczP4mfIN1xJ7ValZ7Dq9lgF"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:s6pFM9JIJbvfnrMtH4RpW35YAzSrW98hnAtTwvHnpVEBT1pW"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - CI_PER_PER"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PER_PER&quot;"/>
@@ -218,7 +218,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aHNcEY3IxBClP//svUotOqjURapTX5RMYho2jiu80JcWqNRxig=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KbObSzBc6z092oY+08Wct+Bjn/5iON6fVz3u/0Rc4+N7VgbbmQ=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_PER_PER"/>
@@ -322,7 +322,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.RIGHT(row1.PER_ID1,8)" name="PER_ID1" type="id_String"/>
@@ -389,7 +389,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3ZBWTnGo9hRR2ynI4ZIu6mhDRD5I2lSt5vnqAfnB+iajaLLv"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:S+hSPEdBei16Hahz8BTNZngaDPZYFfmpFpN4ye2W5gSDOhRU"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_PER_PER&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_PER_PER/CI_PER_PER.csv&quot;"/>
@@ -481,7 +481,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1HXJdrq9BCNZNEjg0Yeu/OBpQESan+v5hpSW4y+kIdskusjS9Q=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GwXBHoMNWiUg44IzP84eJ0vv6cbqM2+BQZYCnjGEgIsYm3yU8A=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_PER_PER"/>
@@ -585,7 +585,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MEDC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.RIGHT(row5.PER_ID1,8) " name="PER_ID1" type="id_String"/>
@@ -623,7 +623,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7b52pwANhf9OcUb/Yv8dRLPEHH+5NGDBhRi6tu9dVXeObpjwsQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6cxIYtiyKbe5en9fGoHe/xqufyvnkflL/C9U67BIoA+4UTh12w=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_PER_PER"/>
@@ -727,7 +727,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MJEC" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.RIGHT(row8.PER_ID1,8)" name="PER_ID1" type="id_String"/>
@@ -765,7 +765,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;pdbccbmig&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wPoSYlS8bObb8dd+vaBYl60y8lz16P/VP/dZr3Q5L0f23t3G+w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:93u3xJp2aPdSljR1W3G0iz35FeNHyPeLTul0pS5M7hnhTjwoEA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_PER_PER"/>
@@ -869,7 +869,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="TNWR" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.RIGHT(row11.PER_ID1,8)" name="PER_ID1" type="id_String"/>
@@ -897,9 +897,9 @@
     <elementParameter field="RADIO" name="SINCE_STARTER" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="STARTER" show="false" value=""/>
     <elementParameter field="CHECK" name="DISPLAY" value="true"/>
-    <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="true"/>
+    <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="false"/>
     <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
+    <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tChronometerStart_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStart_1" target="tDBRow_1">
@@ -964,13 +964,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e3c478d-3190-4e74-b2f6-8abb36f4646c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Hqy+1gumpaYCD59S+OZlYR99LiQuQ7h5os6FznkguzMDwnJlwg7BlXch3HSAg0BZO7EJQvrkIw0+&#13;
-fisuWRffZQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0f03c52c-37ac-48c9-8930-b8a47fbad70e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>inawCXY65sqDGZZCObWrXVgjvvvUm/BW9Fs4mbmk/NbqJ73D1lbywRYU+Xh+74A/c/F1/6DJ8XGv&#13;
-P7WaUNUxdw==</DigestValue></Reference></SignedInfo><SignatureValue>ZdWO+HIicrRNAtzeXODBxMbDyxve0hgRt0iX4peOYQhGGPjbAjXVB2Y6K6sIcojujOmiX1mkrGoO&#13;
-nobI4t+uOOU5s5ZtJEAaV2X4T2mv8jmajz2W7h1ioTw2kAizS2TQWFPKFG8rV7X5C+v383h97eMi&#13;
-6ftK5Rknmf25TgdKNJKmbXYf5+INRkqjB9pyYwMJTZ56MdLp9so/yuYR3OfYf4iSJb6fRuhdUPHp&#13;
-u7KjjOiAx7b+X97wvRJfm6m4MXz+hMdez9QFmbLd/XeYa8nDHRJypeYpCzYRqm+Z+ADb1bgPjacj&#13;
-RLCcn6c2IrDLw2x1H12et3XNNxGRcrrnylrdXQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_397fd6d2-f926-4333-8888-96920ddc7180"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>svutLWi4p4CZrIhlj7kiamyimiT9iSK/p5v+2V0NwBV9fT2zGCqKJfX6lfo/dbOlRnH5/Yxd/Ph0&#13;
+NkJ3fsWR7g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4e280f6c-5ae7-4c8d-86a2-2cf476b6b40e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BCIwLOiiXMfKHs7jHnItFU/EZGpEM9dXNGR//UmPXYMM5yQAihY9SwixonC2vX5nhqf63UbhrtHo&#13;
+dDtGTjSWzA==</DigestValue></Reference></SignedInfo><SignatureValue>NzZBkhXJ/13pVUr2CWT+xu1tvMoIoDOvLoVl3n9gh3X4wUf3x4o9dbJD7Y7ESqsBPPDH4qHWRupk&#13;
+Jo4nMEey/Ru22MOTtRrkWDPiTH3JNpjEWSa2rwbNnUjuTyEMCpHaDQxUpzv+RdVai7s4nMDNTZls&#13;
+9/95IjkU/m67YlaLtlj9VYX5yDh45ubJcX3Cl22hsnpHgSK09MJbuf75a5Wn+DyGN65IPZobHPW3&#13;
+9MVtB8r0mfAkZ1x0y0eIOZ+FcHi0VvGvga8G6zK90dkakMagPTZo+RoG8RN+DyVkrgWF1ehwJ69L&#13;
+yMuY4TeHayuHcZagzGICgJKH71imVT1T/rZ65A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -992,4 +992,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0f03c52c-37ac-48c9-8930-b8a47fbad70e" Target="#_2e3c478d-3190-4e74-b2f6-8abb36f4646c"><Timestamp>2021-03-09 07:25:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4e280f6c-5ae7-4c8d-86a2-2cf476b6b40e" Target="#_397fd6d2-f926-4333-8888-96920ddc7180"><Timestamp>2021-03-09 07:38:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
