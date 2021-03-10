@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:bJT/2N0TLgU5Bo19cWS4II0UQFhwIhVhH5Hn2M2/"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:yHXD6Cvr9BV+c1I4jl1qFhzAPqYmZE919kHgJ25k"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:qxbRv1s9JsNrIdwIlwbZz3QygbL0GKF2HWEOZZnU"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mdDRdmh+ythSCdLBCaFSdwkPlOI33E4JZbHQ+QbC"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -139,7 +139,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nloIU+Fh2gy5615R7gSRMbfJ8ne5vqQZp0986E3W6iweQmmf"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5jXPYUwrrG5Qe/GCSmz4UbhGxxG026/hsFYJlK+v0BMYKG3v"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_0GP0gFx2Eeu7Jv4lzsIfHw - CI_MTR"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_MTR&quot;"/>
@@ -266,7 +266,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9hR2sjZzZEqGGehN85h24yVJAi+MuBBa5RPRBY9eUKUfUR1n"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AQKARXsT5XlpFRF8eekrk7MIiD11zujQZKFnsGVcWd5M4BAz"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_MTR&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -452,230 +452,6 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="288">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
-    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;nhextutl1516-scan&quot;"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;nhextutl1516-scan&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iSQyIr9Vis0m4kfzhwvz2W0869P6BYU8SrbdOxGl8JG7VhUUnA=="/>
-    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_MTR"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LZ_MTR&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  MJEC_LZ.LZ_MTR.MTR_ID, &#10;  MJEC_LZ.LZ_MTR.BADGE_NBR, &#10;  MJEC_LZ.LZ_MTR.MTR_TYPE_CD, &#10;  MJEC_LZ.LZ_MTR.MTR_STATUS_FLG, &#10;  MJEC_LZ.LZ_MTR.MFG_CD, &#10;  MJEC_LZ.LZ_MTR.MODEL_CD, &#10;  MJEC_LZ.LZ_MTR.SERIAL_NBR, &#10;  MJEC_LZ.LZ_MTR.RECEIVE_DT, &#10;  MJEC_LZ.LZ_MTR.RETIRE_DT, &#10;  MJEC_LZ.LZ_MTR.DESCRLONG, &#10;  MJEC_LZ.LZ_MTR.VERSION, &#10;  MJEC_LZ.LZ_MTR.RETIRE_RSN_CD, &#10;  MJEC_LZ.LZ_MTR.MTR_DATA_AREA&#10;FROM MJEC_LZ.LZ_MTR&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
-    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
-    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_ID"/>
-      <elementValue elementRef="TRIM" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BADGE_NBR"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_TYPE_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_STATUS_FLG"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MFG_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MODEL_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SERIAL_NBR"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RECEIVE_DT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_DT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRLONG"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VERSION"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_RSN_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_DATA_AREA"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="MJEC_LZ.LZ_MTR"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="LZ_MTR" name="tDBInput_3">
-      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-  </node>
-  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="416">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
-    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;nhextutl1516-scan&quot;"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;nhextutl1516-scan&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oH9pBQe+uALHhq9mhy7dmm6xSdFFGZdOgs2mUchDUng1RUw25A=="/>
-    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_MTR"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LZ_MTR&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  TNWR_LZ.LZ_MTR.MTR_ID, &#10;  TNWR_LZ.LZ_MTR.BADGE_NBR, &#10;  TNWR_LZ.LZ_MTR.MTR_TYPE_CD, &#10;  TNWR_LZ.LZ_MTR.MTR_STATUS_FLG, &#10;  TNWR_LZ.LZ_MTR.MFG_CD, &#10;  TNWR_LZ.LZ_MTR.MODEL_CD, &#10;  TNWR_LZ.LZ_MTR.SERIAL_NBR, &#10;  TNWR_LZ.LZ_MTR.RECEIVE_DT, &#10;  TNWR_LZ.LZ_MTR.RETIRE_DT, &#10;  TNWR_LZ.LZ_MTR.DESCRLONG, &#10;  TNWR_LZ.LZ_MTR.VERSION, &#10;  TNWR_LZ.LZ_MTR.RETIRE_RSN_CD, &#10;  TNWR_LZ.LZ_MTR.MTR_DATA_AREA&#10;FROM TNWR_LZ.LZ_MTR&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
-    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
-    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_ID"/>
-      <elementValue elementRef="TRIM" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BADGE_NBR"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_TYPE_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_STATUS_FLG"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MFG_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MODEL_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SERIAL_NBR"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RECEIVE_DT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_DT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRLONG"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VERSION"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_RSN_CD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_DATA_AREA"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="TNWR_LZ.LZ_MTR"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="LZ_MTR" name="tDBInput_4">
-      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-  </node>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
@@ -692,7 +468,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MZEC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MZEC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4gyq+5lTjdoQ9Qgmp7JY68XVKlxZUsuPts10EKMD0XrlVUMw5w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8shvfGeAPBxl68stlPpldNIKYo4k5BwW5NzgFLblDbU2aE0PgA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dr-9AFxtEeu7Jv4lzsIfHw - LZ_MTR"/>
@@ -844,22 +620,22 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="MZEC" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="MTR_ID" type="id_String"/>
-        <mapperTableEntries name="BADGE_NBR" type="id_String"/>
-        <mapperTableEntries name="MTR_TYPE_CD" type="id_String"/>
-        <mapperTableEntries name="MTR_STATUS_FLG" type="id_String"/>
-        <mapperTableEntries name="MFG_CD" type="id_String"/>
-        <mapperTableEntries name="MODEL_CD" type="id_String"/>
-        <mapperTableEntries name="SERIAL_NBR" type="id_String"/>
-        <mapperTableEntries name="RECEIVE_DT" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="RETIRE_DT" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="DESCRLONG" type="id_String"/>
-        <mapperTableEntries name="VERSION" type="id_BigDecimal"/>
-        <mapperTableEntries name="RETIRE_RSN_CD" type="id_String"/>
-        <mapperTableEntries name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MTR_ID" name="MTR_ID" type="id_String"/>
+        <mapperTableEntries expression="row1.BADGE_NBR == null?&quot; &quot;:row1.BADGE_NBR" name="BADGE_NBR" type="id_String"/>
+        <mapperTableEntries expression="row1.MTR_TYPE_CD == null?&quot; &quot;:row1.MTR_TYPE_CD" name="MTR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.MTR_STATUS_FLG == null?&quot; &quot;:row1.MTR_STATUS_FLG" name="MTR_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row1.MFG_CD == null?&quot; &quot;:row1.MFG_CD" name="MFG_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.MODEL_CD == null?&quot; &quot;:row1.MODEL_CD" name="MODEL_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.SERIAL_NBR == null?&quot; &quot;:row1.SERIAL_NBR" name="SERIAL_NBR" type="id_String"/>
+        <mapperTableEntries expression="row1.RECEIVE_DT" name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.RETIRE_DT" name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.DESCRLONG == null?&quot; &quot;:row1.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(60000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.RETIRE_RSN_CD == null?&quot; &quot;:row1.RETIRE_RSN_CD" name="RETIRE_RSN_CD" type="id_String"/>
+        <mapperTableEntries expression="row1.MTR_DATA_AREA == null?&quot; &quot;:row1.MTR_DATA_AREA" name="MTR_DATA_AREA" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="MTR_ID" type="id_String"/>
@@ -941,7 +717,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;STGADM&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9upupd95RboBLebTh5BrUo5hPSqIy7z3hRDR3BY87Cuiu3BS"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:X2Fdv2dwQyAHDDLqTcMAI8hDGXvehSEvUoksIBXRcoMuW5Ts"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CI_MTR&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;E:/banu/Person/CI_MTR/CI_MRT.csv&quot;"/>
@@ -1051,7 +827,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MEDC_LZ&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;MEDC_LZ&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OmTlMWKSimJNUIVaArwwYgTC/xGp0Ytua2NfutFLhwppS1X5Wg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:P/rC97iSUPEekv07WiPHMnA76FqfFPKxxqqPTOMSzqdV7h6WrA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_N4k5AGYNEeuMVN6gzRGzEg - LZ_MTR"/>
@@ -1161,7 +937,193 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <nodeData xsi:type="TalendMapper:MapperData"/>
+    <metadata connector="FLOW" label="CI_MTR" name="MEDC">
+      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="MEDC" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row3.MTR_ID" name="MTR_ID" type="id_String"/>
+        <mapperTableEntries expression="row3.BADGE_NBR == null?&quot; &quot;:row3.BADGE_NBR" name="BADGE_NBR" type="id_String"/>
+        <mapperTableEntries expression="row3.MTR_TYPE_CD == null?&quot; &quot;:row3.MTR_TYPE_CD" name="MTR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.MTR_STATUS_FLG == null?&quot; &quot;:row3.MTR_STATUS_FLG" name="MTR_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row3.MFG_CD == null?&quot; &quot;:row3.MFG_CD" name="MFG_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.MODEL_CD == null?&quot; &quot;:row3.MODEL_CD" name="MODEL_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.SERIAL_NBR == null?&quot; &quot;:row3.SERIAL_NBR" name="SERIAL_NBR" type="id_String"/>
+        <mapperTableEntries expression="row3.RECEIVE_DT" name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row3.RETIRE_DT" name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row3.DESCRLONG == null?&quot; &quot;:row3.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(20000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row3.RETIRE_RSN_CD == null?&quot; &quot;:row3.RETIRE_RSN_CD" name="RETIRE_RSN_CD" type="id_String"/>
+        <mapperTableEntries expression="row3.MTR_DATA_AREA == null?&quot; &quot;:row3.MTR_DATA_AREA" name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="MTR_ID" type="id_String"/>
+        <mapperTableEntries name="BADGE_NBR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_TYPE_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_STATUS_FLG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MFG_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MODEL_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SERIAL_NBR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DESCRLONG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="VERSION" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="RETIRE_RSN_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;nhextutl1516-scan&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;nhextutl1516-scan&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MJEC_LZ&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;MJEC_LZ&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CeZg6Xz20sqOyKxQzjcW51RQnxzvZ1f8R3asEp4/UGwxY9zaHg=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ym73UGYNEeuMVN6gzRGzEg - LZ_MTR"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LZ_MTR&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  MJEC_LZ.LZ_MTR.MTR_ID, &#10;  MJEC_LZ.LZ_MTR.BADGE_NBR, &#10;  MJEC_LZ.LZ_MTR.MTR_TYPE_CD, &#10;  MJEC_LZ.LZ_MTR.MTR_STATUS_FLG, &#10;  MJEC_LZ.LZ_MTR.MFG_CD, &#10;  MJEC_LZ.LZ_MTR.MODEL_CD, &#10;  MJEC_LZ.LZ_MTR.SERIAL_NBR, &#10;  MJEC_LZ.LZ_MTR.RECEIVE_DT, &#10;  MJEC_LZ.LZ_MTR.RETIRE_DT, &#10;  MJEC_LZ.LZ_MTR.DESCRLONG, &#10;  MJEC_LZ.LZ_MTR.VERSION, &#10;  MJEC_LZ.LZ_MTR.RETIRE_RSN_CD, &#10;  MJEC_LZ.LZ_MTR.MTR_DATA_AREA&#10;FROM MJEC_LZ.LZ_MTR&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_ID"/>
+      <elementValue elementRef="TRIM" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BADGE_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_TYPE_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_STATUS_FLG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MFG_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODEL_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERIAL_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RECEIVE_DT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_DT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRLONG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VERSION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_RSN_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_DATA_AREA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="MJEC_LZ.LZ_MTR"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="LZ_MTR" name="tDBInput_3">
+      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
@@ -1177,7 +1139,193 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <nodeData xsi:type="TalendMapper:MapperData"/>
+    <metadata connector="FLOW" label="CI_MTR" name="MJEC">
+      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="MJEC" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row4.MTR_ID" name="MTR_ID" type="id_String"/>
+        <mapperTableEntries expression="row4.BADGE_NBR == null?&quot; &quot;:row4.BADGE_NBR" name="BADGE_NBR" type="id_String"/>
+        <mapperTableEntries expression="row4.MTR_TYPE_CD == null?&quot; &quot;:row4.MTR_TYPE_CD" name="MTR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.MTR_STATUS_FLG == null?&quot; &quot;:row4.MTR_STATUS_FLG" name="MTR_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row4.MFG_CD == null?&quot; &quot;:row4.MFG_CD" name="MFG_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.MODEL_CD == null?&quot; &quot;:row4.MODEL_CD" name="MODEL_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.SERIAL_NBR == null?&quot; &quot;:row4.SERIAL_NBR" name="SERIAL_NBR" type="id_String"/>
+        <mapperTableEntries expression="row4.RECEIVE_DT" name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row4.RETIRE_DT" name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row4.DESCRLONG == null?&quot; &quot;:row4.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(40000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row4.RETIRE_RSN_CD == null?&quot; &quot;:row4.RETIRE_RSN_CD" name="RETIRE_RSN_CD" type="id_String"/>
+        <mapperTableEntries expression="row4.MTR_DATA_AREA == null?&quot; &quot;:row4.MTR_DATA_AREA" name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="MTR_ID" type="id_String"/>
+        <mapperTableEntries name="BADGE_NBR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_TYPE_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_STATUS_FLG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MFG_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MODEL_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SERIAL_NBR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DESCRLONG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="VERSION" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="RETIRE_RSN_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;nhextutl1516-scan&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;nhextutl1516-scan&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;PDBMIGLOCAL&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;PDBMIGLOCAL&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TNWR_LZ&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;TNWR_LZ&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:900s7cTxVspfG+TX+D5s+US37CwzQI8eibInMbKLIyA6HlDtgQ=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_fM9K4GYNEeuMVN6gzRGzEg - LZ_MTR"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LZ_MTR&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  TNWR_LZ.LZ_MTR.MTR_ID, &#10;  TNWR_LZ.LZ_MTR.BADGE_NBR, &#10;  TNWR_LZ.LZ_MTR.MTR_TYPE_CD, &#10;  TNWR_LZ.LZ_MTR.MTR_STATUS_FLG, &#10;  TNWR_LZ.LZ_MTR.MFG_CD, &#10;  TNWR_LZ.LZ_MTR.MODEL_CD, &#10;  TNWR_LZ.LZ_MTR.SERIAL_NBR, &#10;  TNWR_LZ.LZ_MTR.RECEIVE_DT, &#10;  TNWR_LZ.LZ_MTR.RETIRE_DT, &#10;  TNWR_LZ.LZ_MTR.DESCRLONG, &#10;  TNWR_LZ.LZ_MTR.VERSION, &#10;  TNWR_LZ.LZ_MTR.RETIRE_RSN_CD, &#10;  TNWR_LZ.LZ_MTR.MTR_DATA_AREA&#10;FROM TNWR_LZ.LZ_MTR&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_ID"/>
+      <elementValue elementRef="TRIM" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BADGE_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_TYPE_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_STATUS_FLG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MFG_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODEL_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERIAL_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RECEIVE_DT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_DT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRLONG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VERSION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RETIRE_RSN_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MTR_DATA_AREA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="TNWR_LZ.LZ_MTR"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="LZ_MTR" name="tDBInput_4">
+      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
@@ -1193,7 +1341,81 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <nodeData xsi:type="TalendMapper:MapperData"/>
+    <metadata connector="FLOW" label="CI_MTR" name="TNWR">
+      <column comment="" key="true" length="10" name="MTR_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="30" name="BADGE_NBR" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MTR_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="2" name="MTR_STATUS_FLG" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MFG_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="8" name="MODEL_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="16" name="SERIAL_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RECEIVE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RETIRE_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="4000" name="DESCRLONG" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="1" key="false" length="5" name="VERSION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="' '" key="false" length="10" name="RETIRE_RSN_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="MTR_DATA_AREA" nullable="true" pattern="" precision="0" sourceType="CLOB" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="TNWR" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row5.MTR_ID" name="MTR_ID" type="id_String"/>
+        <mapperTableEntries expression="row5.BADGE_NBR == null?&quot; &quot;:row5.BADGE_NBR" name="BADGE_NBR" type="id_String"/>
+        <mapperTableEntries expression="row5.MTR_TYPE_CD == null?&quot; &quot;:row5.MTR_TYPE_CD" name="MTR_TYPE_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.MTR_STATUS_FLG == null?&quot; &quot;:row5.MTR_STATUS_FLG" name="MTR_STATUS_FLG" type="id_String"/>
+        <mapperTableEntries expression="row5.MFG_CD == null?&quot; &quot;:row5.MFG_CD" name="MFG_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.MODEL_CD == null?&quot; &quot;:row5.MODEL_CD" name="MODEL_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.SERIAL_NBR == null?&quot; &quot;:row5.SERIAL_NBR" name="SERIAL_NBR" type="id_String"/>
+        <mapperTableEntries expression="row5.RECEIVE_DT" name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row5.RETIRE_DT" name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row5.DESCRLONG == null?&quot; &quot;:row5.DESCRLONG" name="DESCRLONG" type="id_String"/>
+        <mapperTableEntries expression="new BigDecimal(80000)" name="VERSION" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row5.RETIRE_RSN_CD == null?&quot; &quot;:row5.RETIRE_RSN_CD" name="RETIRE_RSN_CD" type="id_String"/>
+        <mapperTableEntries expression="row5.MTR_DATA_AREA == null?&quot; &quot;:row5.MTR_DATA_AREA" name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="MTR_ID" type="id_String"/>
+        <mapperTableEntries name="BADGE_NBR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_TYPE_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_STATUS_FLG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MFG_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MODEL_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SERIAL_NBR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RECEIVE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="RETIRE_DT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DESCRLONG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="VERSION" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="RETIRE_RSN_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTR_DATA_AREA" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tChronometerStart_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStart_1" target="tDBRow_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -1212,6 +1434,30 @@
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tDBOutputBulkExec_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="MEDC" lineStyle="10" mergeOrder="2" metaname="MEDC" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="MEDC"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FLOW" label="MJEC" lineStyle="10" mergeOrder="3" metaname="MJEC" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="MJEC"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <connection connectorName="FLOW" label="TNWR" lineStyle="10" mergeOrder="4" metaname="TNWR" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TNWR"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStart_1"/>
@@ -1234,47 +1480,17 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d1b91e12-7081-42e8-93cc-110b3c60f5be"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CysmgdxU9MXQl3ws7fYbw8qJh7fg92Ui653hz1hKodfDevkqWcZsmz9OB7apj10SjCLWvEFl5cWS&#13;
-zh2l/GJGDg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a2815f03-d82e-4935-83c1-00f272fe2514"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sBAQOpQ8O6xTpk0I7fFasrzH2yz2Ztr3BEIifxYXZmoRaCmAYIMNTcXEipgll8ip68kl170+NMI1&#13;
-fyKSYtlsjQ==</DigestValue></Reference></SignedInfo><SignatureValue>iWa4GqSJe6pbCCSkuIi+dBSs/QFLbMIaQK0sYyJhXU/YHPSUiFQihpr43A8rZdyTmrOibh/y+7VO&#13;
-4mJqtPSp/WMFy5jpKHMCBA+ip44QO2bh7649bi1hZhj8DhoDpbVec2M/zh/Ju/7MFWoxR4O+8SfS&#13;
-GXE5CjpVAuepdCYrLYt3H9lj7OJMRR8gOvBuS+C6YqBYvK+vKz0EC8UsYBFif/+byR4nueaah5AT&#13;
-b2DRFdQZAN67SQq+immK7R2T11nXi5NfiDovYZzF119AqIIgYRKND4VdAYCUagNco1kiYJ748Uhd&#13;
-wu+QE/kEbV3Nxw7rLCAWJbR4dTfSPOiTSAWZ3g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_21e7d0a6-43ce-412d-95fb-7b77e8633ffe"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/4prBuJZS3XqS3XrcGT8dfJnx64SK13FBBjQMWMSj77wmuLDVRSpkptf9TDIAjrhvb64PnuTUpYq&#13;
+gXsduASQeQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_21aef351-9091-4f90-b912-4b2c5c48153f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7k2mhB+wyB2GrPxqcjxv0fYHYl0wGj0GdYfbKpOZ4lTyVOUhXShGNjPUZ6Yzct1RW4uMVDjBfAL5&#13;
+xdsXaUhyAQ==</DigestValue></Reference></SignedInfo><SignatureValue>UPkKuz+WjWx1dqyIk66C2uApVUfytcvANaWDPNTc38srvHHLMciagDLK6jjbqvadpZCdPhrEGz5Q&#13;
+nC0H8xmvUlsTWXWuQlPObp+d4vRPINXK/MW/cdafuBP8di5py2yRqkJtxsFNSRsLiMZPmhu4mgjl&#13;
+Hxra9h7HpjV/IFBrtl/J3GVyMvWitz/WQhKz/HmAighRE1VmFR3s6jzFIOz7/DcDpLubth2QIsg3&#13;
+eaQQbPqZSjmOo2rYF60Iur7WC3QwY8BUkU0QKVqG3wfF9P2QwXDutlrnkOz1qOAfZge1u89hTjHC&#13;
+xhSWyv4GGOr3ayU0xq+d2Zx8nkkmfm9GHBekLg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1296,4 +1512,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a2815f03-d82e-4935-83c1-00f272fe2514" Target="#_d1b91e12-7081-42e8-93cc-110b3c60f5be"><Timestamp>2021-03-10 12:15:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_21aef351-9091-4f90-b912-4b2c5c48153f" Target="#_21e7d0a6-43ce-412d-95fb-7b77e8633ffe"><Timestamp>2021-03-10 12:26:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
