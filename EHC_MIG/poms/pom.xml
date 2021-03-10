@@ -69,6 +69,7 @@
     <module>jobs/process/ETL_STG_LOAD/Person_Old/load_stg_person_copy_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Account/load_stg_acct_alert_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Fin_Transaction/load_stg_ft_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Fin_Transaction/load_stg_fa_gl_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
