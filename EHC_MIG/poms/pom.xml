@@ -74,6 +74,7 @@
     <module>jobs/process/ETL_STG_LOAD/Meter/load_stg_mtr_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Meter/load_stg_reg_0.1</module>
     <module>jobs/process/ETL_STG_LOAD/Meter/load_stg_reg_read_0.1</module>
+    <module>jobs/process/ETL_STG_LOAD/Meter/load_stg_mtr_char_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
